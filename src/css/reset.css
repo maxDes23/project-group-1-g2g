@@ -1,4 +1,11 @@
 /* Reset styles */
+:root {
+  --dark-blue: #11131f;
+  --white: #f6f5ef;
+  --light-green: #93abae;
+  --text-cart: rgba(246, 245, 239, 0.50);
+}
+
 h1,
 h2,
 h3,
