@@ -2,6 +2,8 @@
   width: 375px;
   padding: 0 20px;
   margin: 0 auto;
+  background: var(--dark-blue, #11131F);
+  
 }
 
 @media only screen and (min-width: 768px) {
