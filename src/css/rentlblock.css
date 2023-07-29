@@ -1,13 +1,9 @@
 
-/* .rent-blok {
-  background-image: radial-gradient(#91afba, #11131f);
-} */
-
 .title-rent {
   color: var(--white, #f6f5ef);
   font-size: 36px;
   font-weight: 500;
-  line-height: 110%;
+  line-height: 1.1;
   letter-spacing: -1.62px;
   margin-top: 80px;
   margin-bottom: 16px;
@@ -16,13 +12,14 @@
 .img-yaht {
   width: 259px;
   height: 187px;
+  margin-left: 0;
 }
 
 .input-label {
   color: var(--white, #f6f5ef);
   font-size: 14px;
   font-weight: 500;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: -0.63px;
 }
 
@@ -91,6 +88,10 @@
   background: transparent;
   margin-top: 24px;
   margin-bottom: 80px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.81px;
 }
 
 .icon-rent-send {
@@ -108,11 +109,32 @@
   height: 396px;
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /* 
-  background-image: radial-gradient(#91afba, #11131f);
-  background-size: 142px 142px;
-  background-repeat: no-repeat;
-  background-position: 50% 20%;*/
+}
+
+.rent-lite {
+  position: absolute;
+  width: 283px;
+  height: 283px;
+  transform: rotate(-45deg);
+  border-radius: 283px;
+  opacity: 0.6;
+  background: #91afba;
+  filter: blur(100px);
+  right: -15%;
+  bottom: 858px;
+}
+
+.rent-modal-lite {
+  position: absolute;
+  width: 142px;
+  height: 142px;
+  transform: rotate(-45deg);
+  border-radius: 265px;
+  opacity: 0.6;
+  background: #91afba;
+  filter: blur(100px);
+  left: 67px;
+  bottom: 150px;
 }
 
 .modal-button {
@@ -138,7 +160,7 @@
   color: var(--white, #f6f5ef);
   font-size: 24px;
   font-weight: 500;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: -1.08px;
   margin-top: 24px;
   margin-bottom: 14px;
@@ -148,7 +170,7 @@
   color: var(--white, #f6f5ef);
   font-size: 14px;
   font-weight: 400;
-  line-height: 140%;
+  line-height: 1.4;
   letter-spacing: -0.28px;
 }
 
@@ -215,6 +237,19 @@
     width: 24px;
     height: 24px;
   }
+  .rent-lite {
+    width: 413px;
+    height: 413px;
+    right: -25%;
+    bottom: 905px;
+  }
+  .rent-modal-lite {
+    width: 265px;
+    height: 265px;
+    left: 150px;
+
+    top: 15%;
+  }
 }
 
 /*===================================== dESKTOP ===============================*/
@@ -248,5 +283,11 @@
     height: 58px;
     margin-bottom: 0;
   }
+  .rent-lite {
+    width: 414px;
+    height: 414px;
+    right: -15%;
+    border-radius: 414px;
+    bottom: 860px;
+  }
 }
-
