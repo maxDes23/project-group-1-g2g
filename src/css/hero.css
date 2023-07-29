@@ -7,6 +7,7 @@
 .hero-section {
   padding: 40px 0;
   position: relative;
+  font-family: DM Sans, sans-serif;
 }
 
 @media only screen and (min-width: 768px) {
@@ -38,7 +39,6 @@
 }
 @media only screen and (min-width: 768px) {
   .hero-content-container {
-    padding-left: 32px;
     margin-left: 0;
   }
 }
@@ -170,14 +170,21 @@
 }
 
 .hero-card-container {
+
+  background-color: lightgray;
+  background-image: url('../img/hero/fon-p@1x.jpg');
+
   background-color: var(--text-cart);
   background-image: url('./img/hero/fon-p@1x.jpg');
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 
   padding-top: 20px;
   padding-bottom: 30px;
+  padding-left: 24px;
+  padding-right: 24px;
   border-radius: 30px;
 
   position: relative;
@@ -189,39 +196,40 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero-card-container {
-    background-image: url('./img/hero/fon-p@2x.jpg');
+    background-image: url('../img/hero/fon-p@2x.jpg');
   }
 }
 
 /* Tablet screen */
 @media only screen and (min-width: 768px) {
   .hero-card-container {
-    background-image: url('./img/hero/fon-t@1x.jpg');
+    background-image: url('../img/hero/fon-t@1x.jpg');
     padding-top: 27px;
     padding-bottom: 64px;
     width: 426px;
     margin-left: 0;
+    padding-left: 32px;
   }
   /* Retina*/
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero-card-container {
-      background-image: url('./img/hero/fon-t@2x.jpg');
+      background-image: url('../img/hero/fon-t@2x.jpg');
     }
   }
 }
 /* Desktop screen */
 @media only screen and (min-width: 1280px) {
   .hero-card-container {
-    background-image: url('./img/hero/fon-d@1x.jpg');
+    background-image: url('../img/hero/fon-d@1x.jpg');
   }
   /* Retina*/
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero-card-container {
-      background-image: url('./img/hero/fon-d@2x.jpg');
+      background-image: url('../img/hero/fon-d@2x.jpg');
     }
   }
 }
@@ -230,16 +238,19 @@
   content: '';
   position: absolute;
   bottom: 0px;
-  left: 118px;
-  width: 25px;
   height: 27px;
+  height: 20px;
   background-color: transparent;
   border-bottom-left-radius: 90px;
   box-shadow: 0px 10px 0 var(--dark-blue);
 }
 
 .for-fon {
+
+  width: 165px;
+
   width: 125px;
+
   background-color: var(--dark-blue);
   height: 25px;
   border-top-right-radius: 40px;
@@ -253,6 +264,7 @@
   content: '';
   position: absolute;
   bottom: 25px;
+  bottom: 20px;
   left: 0;
   width: 40px;
   height: 40px;
@@ -263,13 +275,14 @@
 
 .hero-light {
   position: absolute;
-  top: 427px;
+  top: 350px;
   left: -167px;
   width: 279px;
   height: 279px;
   transform: rotate(-44.916deg);
   flex-shrink: 0;
   border-radius: 279px;
+  border-radius: 30px;
   opacity: 0.8999999761581421;
   background: #939cac;
   filter: blur(100px);
