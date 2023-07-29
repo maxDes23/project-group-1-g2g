@@ -1,0 +1,53 @@
+/* Common styles */
+:root {
+    --white-cl: #F6F5EF;
+    --dark-blue-cl: #11131F;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+/* Services section styles */
+.services-container {}
+
+.services-list {}
+
+.services-item:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.services-image {
+    position: relative;
+    width: 335px;
+    height: 335px;
+}
+.services-image.first {}
+
+.services-image.second {}
+
+.services-image.third {}
+
+.services-text {
+    display: inline-block;
+    padding: 14px 28px;
+    border-radius: 60px;
+    background-color: var(--white-cl);
+    color: var(--dark-blue-cl);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+}
+.services-text.first {}
+
+.services-text.second {}
+
+.services-text.third {}
