@@ -203,6 +203,7 @@
     padding-bottom: 64px;
     width: 426px;
     margin-left: 0;
+    padding-left: 32px;
   }
   /* Retina*/
   @media (min-device-pixel-ratio: 2),
@@ -232,9 +233,8 @@
   content: '';
   position: absolute;
   bottom: 0px;
-  left: 118px;
-  width: 25px;
   height: 27px;
+  height: 20px;
   background-color: transparent;
   border-bottom-left-radius: 90px;
   box-shadow: 0px 10px 0 var(--dark-blue);
@@ -255,6 +255,7 @@
   content: '';
   position: absolute;
   bottom: 25px;
+  bottom: 20px;
   left: 0;
   width: 40px;
   height: 40px;
@@ -265,13 +266,14 @@
 
 .hero-light {
   position: absolute;
-  top: 427px;
+  top: 350px;
   left: -167px;
   width: 279px;
   height: 279px;
   transform: rotate(-44.916deg);
   flex-shrink: 0;
   border-radius: 279px;
+  border-radius: 30px;
   opacity: 0.8999999761581421;
   background: #939cac;
   filter: blur(100px);
