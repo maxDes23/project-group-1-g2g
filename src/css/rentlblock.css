@@ -3,13 +3,6 @@
   background-image: radial-gradient(#91afba, #11131f);
 } */
 
-.container {
-  max-width: 375px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
 .title-rent {
   color: var(--white, #f6f5ef);
   font-size: 36px;
