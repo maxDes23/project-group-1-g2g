@@ -318,7 +318,7 @@ ul, li {
     }
     @media screen and (min-width:768px){
         .light {
-            width: 419px;
+width: 419px;
 height: 419px;
 transform: rotate(-45.565deg);
 flex-shrink: 0;
@@ -331,10 +331,10 @@ bottom: -384px;
         }
     }
     @media screen and (min-width:1280px) {
-        .light {
-            position: absolute;
-            width: 415px;
-            top: 237px;
+.light {
+position: absolute;
+width: 415px;
+top: 237px;
 height: 415px;
 transform: rotate(-45.044deg);
 flex-shrink: 0;
@@ -342,6 +342,5 @@ border-radius: 415px;
 opacity: 0.6000000238418579;
 background:  #93ABAE;
 filter: blur(100px);
-
         }
     }
