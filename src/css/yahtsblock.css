@@ -1,4 +1,4 @@
-.rentlblock_container {
+.yahtsblock_container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -6,22 +6,22 @@
     }
     
     @media only screen and (min-width: 768px) {
-      .rentlblock_container {
+      .yahtsblock_container {
         gap: 64px;
       }
     }
     
-    .rentlblock_title {
+    .yahtsblock_title {
         color: var(--white);
         max-width: 310px;
         font-size: 36px;
         font-weight: 500;
-        line-height: 110%;
+        line-height: 1.1;
         letter-spacing: -1.62px;
     }
     
     @media only screen and (min-width: 768px) {
-        .rentlblock_title {
+        .yahtsblock_title {
         font-size: 70px;
         letter-spacing: -3.15px;
         max-width: 641px;
@@ -29,7 +29,7 @@
     }
     
     @media only screen and (min-width: 1280px) {
-      .rentlblock_title {
+      .yahtsblock_title {
         font-size: 100px;
         letter-spacing: -4.5px;
         max-width: 882px;
