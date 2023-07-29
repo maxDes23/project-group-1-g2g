@@ -170,8 +170,13 @@
 }
 
 .hero-card-container {
+
   background-color: lightgray;
   background-image: url('../img/hero/fon-p@1x.jpg');
+
+  background-color: var(--text-cart);
+  background-image: url('./img/hero/fon-p@1x.jpg');
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -241,7 +246,11 @@
 }
 
 .for-fon {
+
   width: 165px;
+
+  width: 125px;
+
   background-color: var(--dark-blue);
   height: 25px;
   border-top-right-radius: 40px;
