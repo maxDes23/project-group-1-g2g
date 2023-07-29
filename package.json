@@ -1,11 +1,11 @@
 {
-  "name": "vanilla-app-template",
+  "name": "project-group-1-yacht",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/project-group-1-Yacht-Adventures/",
+    "build": "vite build --base=/project-group-1-yacht/",
     "preview": "vite preview"
   },
   "devDependencies": {

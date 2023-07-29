@@ -1,0 +1,298 @@
+.rent-container {
+}
+
+.rent-blok {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.title-rent {
+  color: var(--white, #f6f5ef);
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -1.62px;
+  margin-bottom: 16px;
+}
+
+.img-yaht {
+  width: 259px;
+  height: 187px;
+  margin-left: 0;
+}
+
+.input-label {
+  color: var(--white, #f6f5ef);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.63px;
+}
+
+.rent-input {
+  width: 100%;
+  height: 16px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #f6f5ef;
+  padding-left: 10px;
+  padding-right: 10px;
+  outline: transparent;
+  font-size: 16px;
+  color: #f6f5ef;
+}
+.rent-input:focus {
+}
+
+.rent-texterea {
+  width: 100%;
+  height: 58px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #f6f5ef;
+  outline: transparent;
+  font-size: 16px;
+  color: #f6f5ef;
+
+  padding: 5px 10px;
+}
+
+.rent-field {
+  margin-bottom: 24px;
+}
+
+.rent-field:first-child {
+  margin-top: 40px;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.4);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.rent-btn-send {
+  display: flex;
+  gap: 16px;
+  padding: 14px 28px;
+  justify-content: center;
+  align-items: center;
+  color: #f6f5ef;
+  border-radius: 60px;
+  border: 1px solid var(--white, #f6f5ef);
+  background: transparent;
+  margin-top: 24px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.81px;
+}
+
+.icon-rent-send {
+  fill: var(--white, #f6f5ef);
+}
+
+.modal-window {
+  width: 335px;
+  padding: 40px 24px;
+  border-radius: 20px;
+  background: #1f212d;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 396px;
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.rent-lite {
+  position: absolute;
+  width: 283px;
+  height: 283px;
+  transform: rotate(-45deg);
+  border-radius: 283px;
+  opacity: 0.6;
+  background: #91afba;
+  filter: blur(100px);
+  right: -15%;
+  bottom: 858px;
+}
+
+.rent-modal-lite {
+  position: absolute;
+  width: 142px;
+  height: 142px;
+  transform: rotate(-45deg);
+  border-radius: 265px;
+  opacity: 0.6;
+  background: #91afba;
+  filter: blur(100px);
+  left: 67px;
+  bottom: 150px;
+}
+
+.modal-button {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  border: none;
+  background: transparent;
+}
+
+.icon-close {
+  stroke: #f6f5ef;
+  width: 20px;
+  height: 20px;
+}
+
+.img-yaht-modal {
+  width: 287px;
+  height: 149px;
+  background: transparent;
+}
+.rent-modal-title {
+  color: var(--white, #f6f5ef);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -1.08px;
+  margin-top: 24px;
+  margin-bottom: 14px;
+}
+
+.rent-modal-text {
+  color: var(--white, #f6f5ef);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: -0.28px;
+}
+
+/*==================================== TABLET ======================================= */
+
+@media screen and (min-width: 768px) {
+  .rent-blok {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .rent-container {
+    display: flex;
+    gap: 69px;
+  }
+  .title-img-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .title-rent {
+    color: var(--white, #f6f5ef);
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: -2.7px;
+    max-width: 287px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .img-yaht {
+    width: 271px;
+    height: 187px;
+  }
+
+  .rent-field {
+    margin-bottom: 28px;
+  }
+  .rent-field:first-child {
+    margin-top: 0;
+  }
+  .rent-form {
+    display: flex;
+    flex-direction: column;
+    width: 364px;
+  }
+  .img-yaht-modal {
+    width: 338px;
+    height: 198px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .rent-btn-send {
+    width: 132px;
+    margin-top: 32px;
+    margin-bottom: 0;
+  }
+  .modal-window {
+    width: 570px;
+    padding: 97px 64px 64px 64px;
+    height: 522px;
+  }
+  .icon-close {
+    width: 24px;
+    height: 24px;
+  }
+  .rent-lite {
+    width: 413px;
+    height: 413px;
+    right: -25%;
+    bottom: 905px;
+  }
+  .rent-modal-lite {
+    width: 265px;
+    height: 265px;
+    left: 150px;
+
+    top: 15%;
+  }
+}
+
+/*===================================== dESKTOP ===============================*/
+
+@media screen and (min-width: 1280px) {
+  .rent-blok {
+    padding-top: 164px;
+    padding-bottom: 164px;
+  }
+  .rent-container {
+    gap: 188px;
+    justify-content: center;
+  }
+  .title-img-cont {
+    width: 282px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 64px;
+  }
+  .rent-form {
+    width: 443px;
+  }
+  .img-yaht {
+    width: 282px;
+    height: 191px;
+  }
+  .rent-btn-send {
+    margin-top: 64px;
+  }
+  .rent-texterea {
+    height: 58px;
+    margin-bottom: 0;
+  }
+  .rent-lite {
+    width: 414px;
+    height: 414px;
+    right: -15%;
+    border-radius: 414px;
+    bottom: 860px;
+  }
+}

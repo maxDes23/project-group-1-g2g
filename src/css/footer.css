@@ -9,25 +9,11 @@ ul, li {
     .container {
          background: #11131F;
     }
-    @media screen and (min-width:768px) {
-        .container {
-           width:768px;
-            padding: 0 32px;
-            margin: 0 auto;
-        }
-    }
-    @media screen and (min-width:1280px) {
-        .container {
-            width:1280px;
-            padding: 0 32px;
-            margin: 0 auto;
-        }
-    }
 
 /*CONTAINER-FOOTER*/
 .container-footer {
-    padding: 0 20px;
-    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
 }
 
 /*FOOTER-BOX*/
@@ -37,8 +23,8 @@ ul, li {
 }
     @media screen and (min-width:768px) {
         .footer-box {
-            display: flex;
-      justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
     align-items: flex-start;
     align-content: center;
     flex-direction: row;
@@ -314,11 +300,25 @@ ul, li {
         filter: blur(100px);
         background-size: cover;
     }
-
-    @media screen and (min-width:1280px) {
+    @media screen and (min-width:768px){
         .light {
-            position: absolute;
-            width: 415px;
+width: 419px;
+height: 419px;
+transform: rotate(-45.565deg);
+flex-shrink: 0;
+border-radius: 419px;
+opacity: 0.6000000238418579;
+background:  #93ABAE;
+filter: blur(100px);
+left: 237px;
+bottom: -384px;
+        }
+    }
+    @media screen and (min-width:1280px) {
+.light {
+position: absolute;
+width: 415px;
+top: 237px;
 height: 415px;
 transform: rotate(-45.044deg);
 flex-shrink: 0;
@@ -326,7 +326,5 @@ border-radius: 415px;
 opacity: 0.6000000238418579;
 background:  #93ABAE;
 filter: blur(100px);
-left: 354px;
-bottom: 115px;
         }
     }
