@@ -74,6 +74,11 @@
   |============================
 */
 
+.circle-container {
+    display: flex;
+    position: relative;
+}
+
 .circle1 {
     position: absolute;
     width: 255px;
@@ -86,8 +91,7 @@
     filter: blur(100px);
     background-size: cover;
     animation: rotate 8s linear infinite;
-    top: 460px;
-    left: -32px
+    left: -65px;
   }
 
 @media screen and (min-width:768px){
@@ -96,7 +100,6 @@
     height: 399px;
     transform: rotate(-44.094deg);
     border-radius: 399px;
-    margin-top: px;
       }
   }
 @media screen and (min-width:1280px) {
@@ -105,6 +108,7 @@
     height: 414px;
     transform: rotate(-45.044deg);
     border-radius: 414px;
+    left: 56px;
       }
   }
 
@@ -120,8 +124,7 @@
     filter: blur(100px);
     background-size: cover;
     animation: rotate 8s linear infinite;
-    top: 430px;
-    right: -12px;
+    right: 23px;
   }
 
 @media screen and (min-width:768px){
@@ -130,6 +133,7 @@
     height: 304px;
     transform: rotate(-44.094deg);
     border-radius: 304px;
+    right: 100px;
       }
   }
 @media screen and (min-width:1280px) {
@@ -138,6 +142,7 @@
     height: 316px;
     transform: rotate(-45.074deg);
     border-radius: 316px;
+    right: 420px;
       }
   }
 
