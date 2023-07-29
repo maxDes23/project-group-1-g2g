@@ -26,6 +26,8 @@ ul, li {
 
 /*CONTAINER-FOOTER*/
 .container-footer {
+    overflow: hidden;
+    position: relative;
     padding: 0 20px;
     margin: 0 auto;
 }
@@ -314,11 +316,25 @@ ul, li {
         filter: blur(100px);
         background-size: cover;
     }
-
-    @media screen and (min-width:1280px) {
+    @media screen and (min-width:768px){
         .light {
-            position: absolute;
-            width: 415px;
+width: 419px;
+height: 419px;
+transform: rotate(-45.565deg);
+flex-shrink: 0;
+border-radius: 419px;
+opacity: 0.6000000238418579;
+background:  #93ABAE;
+filter: blur(100px);
+left: 237px;
+bottom: -384px;
+        }
+    }
+    @media screen and (min-width:1280px) {
+.light {
+position: absolute;
+width: 415px;
+top: 237px;
 height: 415px;
 transform: rotate(-45.044deg);
 flex-shrink: 0;
@@ -326,7 +342,5 @@ border-radius: 415px;
 opacity: 0.6000000238418579;
 background:  #93ABAE;
 filter: blur(100px);
-left: 354px;
-bottom: 115px;
         }
     }
