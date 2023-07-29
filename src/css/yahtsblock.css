@@ -47,6 +47,12 @@
     max-width: 882px;
       }
     }
+
+  /**
+    |============================
+    | Rent Button styles
+    |============================
+  */
     
 .anchor-btn {
     font-family: DM Sans;
@@ -62,3 +68,81 @@
     line-height: 1.1;
     letter-spacing: -0.81px;
     }
+/**
+  |============================
+  | Shadow styles
+  |============================
+*/
+
+.circle1 {
+    position: absolute;
+    width: 255px;
+    height: 255px;
+    transform: rotate(-44.916deg);
+    flex-shrink: 0;
+    border-radius: 420px;
+    opacity: 0.6000000238418579;
+    background: #93ABAE;
+    filter: blur(100px);
+    background-size: cover;
+    animation: rotate 8s linear infinite;
+    top: 460px;
+    left: -32px
+  }
+
+@media screen and (min-width:768px){
+  .circle1{
+    width: 399px;
+    height: 399px;
+    transform: rotate(-44.094deg);
+    border-radius: 399px;
+    margin-top: px;
+      }
+  }
+@media screen and (min-width:1280px) {
+  .circle1 {
+    width: 414px;
+    height: 414px;
+    transform: rotate(-45.044deg);
+    border-radius: 414px;
+      }
+  }
+
+  .circle2 {
+    position: absolute;
+    width: 195px;
+    height: 195px;
+    transform: rotate(-44.916deg);
+    flex-shrink: 0;
+    border-radius: 190px;
+    opacity: 0.30000001192092896;
+    background: #A6A9B2;
+    filter: blur(100px);
+    background-size: cover;
+    animation: rotate 8s linear infinite;
+    top: 430px;
+    right: -12px;
+  }
+
+@media screen and (min-width:768px){
+  .circle2 {
+    width: 304px;
+    height: 304px;
+    transform: rotate(-44.094deg);
+    border-radius: 304px;
+      }
+  }
+@media screen and (min-width:1280px) {
+  .circle2 {
+    width: 316px;
+    height: 316px;
+    transform: rotate(-45.074deg);
+    border-radius: 316px;
+      }
+  }
+
+  @keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
