@@ -1,3 +1,10 @@
+.rent-container {
+}
+
+.rent-blok {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
 
 .title-rent {
   color: var(--white, #f6f5ef);
@@ -5,7 +12,6 @@
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: -1.62px;
-  margin-top: 80px;
   margin-bottom: 16px;
 }
 
@@ -87,7 +93,6 @@
   border: 1px solid var(--white, #f6f5ef);
   background: transparent;
   margin-top: 24px;
-  margin-bottom: 80px;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.1;
@@ -177,14 +182,13 @@
 /*==================================== TABLET ======================================= */
 
 @media screen and (min-width: 768px) {
+  .rent-blok {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
   .rent-container {
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
     display: flex;
     gap: 69px;
-    margin-top: 100px;
-    margin-bottom: 100px;
   }
   .title-img-cont {
     display: flex;
@@ -255,8 +259,11 @@
 /*===================================== dESKTOP ===============================*/
 
 @media screen and (min-width: 1280px) {
+  .rent-blok {
+    padding-top: 164px;
+    padding-bottom: 164px;
+  }
   .rent-container {
-    max-width: 1280px;
     gap: 188px;
     justify-content: center;
     margin-top: 164px;
