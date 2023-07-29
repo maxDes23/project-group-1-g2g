@@ -1,0 +1,346 @@
+/*Reset*/
+ul, li {
+    list-style: none;
+    }
+    
+    :root {
+        --color-white: #F6F5EF;
+    }
+    .container {
+         background: #11131F;
+    }
+    @media screen and (min-width:768px) {
+        .container {
+           width:768px;
+            padding: 0 32px;
+            margin: 0 auto;
+        }
+    }
+    @media screen and (min-width:1280px) {
+        .container {
+            width:1280px;
+            padding: 0 32px;
+            margin: 0 auto;
+        }
+    }
+
+/*CONTAINER-FOOTER*/
+.container-footer {
+    overflow: hidden;
+    position: relative;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+/*FOOTER-BOX*/
+.footer-box {
+    padding-top: 40px;
+    border-top: 2px solid rgba(246, 245, 239, 0.20);
+}
+    @media screen and (min-width:768px) {
+        .footer-box {
+            display: flex;
+      justify-content: space-between;
+    align-items: flex-start;
+    align-content: center;
+    flex-direction: row;
+    padding-bottom: 100px;
+    padding-top: 65px;
+        }
+    }
+    @media screen and (min-width:1280px) {
+        .footer-box{
+            padding-bottom: 132px;
+            margin: 0;
+            position: relative;
+        }
+    }
+/*LOGO-TEXT*/
+    .footer-logo-text {
+    color: var(--color-white);
+    font-family: 'DM Sans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    } 
+    @media screen and (min-width:768px) {
+        .footer-logo-text {
+            color: var(--white, #F6F5EF);
+            font-family: DM Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 1.18;
+            letter-spacing: 0.54px;
+            text-transform: uppercase;
+    }
+}
+@media screen and (min-width:1280px) {
+    .footer-logo-text {
+        color: var(--color-white);
+        font-family: 'DM Sans';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.18;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+        }
+    }
+/*SOCIAL-TEXT*/
+    .footer-social-text {
+        color: var(--color-white);
+        font-family: 'DM Sans';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.10;
+        text-transform: uppercase;
+        }
+
+@media screen and (min-width:768px) {
+    .footer-social-text {
+        color: var(--color-white);
+        font-family: 'DM Sans';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.10;
+        text-transform: uppercase;
+        }
+}
+/*NETWORKS-LOGO*/
+    @media screen and (min-width:768px) {
+    .networks-logo {
+        width: 40px;
+        height: 40px;
+}
+}
+/*FOOTER-LIST-LOGO*/
+    .footer-list-logo {
+        display: flex;
+        flex-direction: row;
+        gap:8px;
+        align-content: center;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0;
+    }
+
+    @media screen and (min-width:768px) {
+    }
+/*FOOTER-PAGES*/
+    .footer-pages {
+    color: var(--color-white);
+    font-family: 'DM Sans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.18;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    }
+
+    @media screen and (min-width:768px) {
+    }
+
+    @media screen and (min-width:768px) {
+    }
+/*POLICY-TEXT*/
+    .footer-policy-text {
+    color: rgba(246, 245, 239, 0.50);
+    text-align: center;
+    font-family: 'DM Sans';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.18;
+    letter-spacing: 0.36px;
+    }
+    
+    @media screen and (min-width:768px) {
+        .footer-policy-text {
+    color: rgba(246, 245, 239, 0.50);
+    text-align: center;
+    font-family: 'DM Sans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.18;
+    letter-spacing: 0.42px;
+        }
+    }
+    
+    @media screen and (min-width:1280px) {
+        .footer-policy-text {
+            color: rgba(246, 245, 239, 0.50);
+            text-align: center;
+            font-family: 'DM Sans';
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.18;
+            letter-spacing: 0.42px;
+                }
+}
+/*YACHT-LOGO*/
+    .yacht-logo {
+        fill: none;
+        stroke: rgba(246, 245, 239, 0.50);
+     }
+     @media screen and (min-width:768px) {
+        .yacht-logo { width: 23px;
+        height: 23px;
+        }
+     }
+     @media screen and (min-width:1280px) {}
+/*LIST-PAGES*/
+    .footer-list-navigations {
+        display: flex;
+        gap: 14px;
+        margin: 40px 0 40px 0;
+        padding: 0;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    @media screen and (min-width:768px) {
+        .footer-list-navigations {
+            margin: 0;
+            padding: 0;
+            gap: 24px;
+        }
+    
+    }
+    @media screen and (min-width:1280px) {
+        .footer-list-navigations{
+            flex-direction: row;
+        }
+    }
+/*FOOTER-PAGES*/
+        .footer-pages {
+        text-decoration: none;
+    }
+    @media screen and (min-width:768px) {
+
+    }
+/*LIST-SOCIAL*/
+    .footer-list-social {
+        display:flex;
+        flex-direction: column;
+        gap:16px;
+    }
+    @media screen and (min-width:768px) {
+    
+    }
+
+    @media screen and (min-width:1280px) {
+
+    }
+/*SOCIAL-NETWORKS*/
+    .footer-social-networks {
+        display: flex;
+        gap:14px;
+        padding: 0;
+        margin: 0;
+    }
+    @media screen and (min-width:768px) {
+ 
+    }
+    
+    @media screen and (min-width:1280px) {
+
+    }
+/*POLICY*/
+    .footer-policy {
+        display:flex;
+        justify-content: center;
+     
+    }
+    @media screen and (min-width:1280px) {
+        .footer-policy {
+            display:block;
+            margin: 0;
+      
+        }
+    }
+/*POLICY-LIST*/
+    .footer-policy-list{
+        display: flex;
+        gap: 14px;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 40px 0px 14px 0px;
+    }
+    @media screen and (min-width:768px) {
+        .footer-policy-list{
+            padding-bottom: 16px;
+            padding-top: 0;
+        }
+    }
+    @media screen and (min-width:1280px) {
+.footer-policy-list{
+    margin: 0;
+}
+    }
+/*POLICY-TEXT*/
+    .footer-policy-text {
+        margin: 0;
+        padding: 0;
+    }
+    @media screen and (min-width:768px) {
+
+    }
+/*NETWORKS-LOGO*/
+    .networks-logo {
+        stroke:rgba(246, 245, 239, 0.50);
+    }
+    @media screen and (min-width:768px) {
+
+    }
+/*LIGHT*/
+    .light {
+        position: absolute;
+        width: 420px;
+        height: 420px;
+        transform: rotate(-45.408deg);
+        flex-shrink: 0;
+        border-radius: 420px;
+        opacity: 0.6000000238418579;
+        background: #93ABAE;
+        filter: blur(100px);
+        background-size: cover;
+    }
+    @media screen and (min-width:768px){
+        .light {
+width: 419px;
+height: 419px;
+transform: rotate(-45.565deg);
+flex-shrink: 0;
+border-radius: 419px;
+opacity: 0.6000000238418579;
+background:  #93ABAE;
+filter: blur(100px);
+left: 237px;
+bottom: -384px;
+        }
+    }
+    @media screen and (min-width:1280px) {
+.light {
+position: absolute;
+width: 415px;
+top: 237px;
+height: 415px;
+transform: rotate(-45.044deg);
+flex-shrink: 0;
+border-radius: 415px;
+opacity: 0.6000000238418579;
+background:  #93ABAE;
+filter: blur(100px);
+        }
+    }
