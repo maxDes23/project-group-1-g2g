@@ -1,5 +1,5 @@
 
-header {
+.header {
     background-color: #1f212d;
     border-bottom: 1px solid rgba(246, 245, 239, 0.20);
 }
@@ -54,9 +54,9 @@ header {
 
     .container {
         max-width: 375px;
-        padding-left: 32px;
-        padding-right: 33px;
+        padding: 0 32px;
         margin: 0 auto;
+        background-color: (var(--dark-blue, #1f212d));
 
     }
 
@@ -88,10 +88,12 @@ header {
         left: 0;
         z-index: 3000;
         background-color: #1f212d;
+
         opacity: 1;
         visibility: visible;
         pointer-events: auto;
-        overflow: auto;
+        overflow: hidden;
+
 
     }
 
@@ -164,12 +166,16 @@ header {
 
 @media screen and (min-width:375px) {
 
+
+
     .container {
-        max-width: 375px;
-        padding-left: 32px;
-        padding-right: 32px;
+        width: 375px;
+        padding: 0 20px;
         margin: 0 auto;
+        background-color: (var(--dark-blue, #1f212d));
     }
+
+
 
     .header {
         padding-top: 35px;
@@ -179,13 +185,13 @@ header {
 
 
     .header-mobil-container {
-        max-width: 375px;
+        width: 375px;
         height: 812px;
         position: relative;
-        padding-left: 40px;
+        padding-left: 20px;
         padding-top: 28px;
         padding-bottom: 8px;
-        padding-right: 40px;
+        padding-right: 20px;
         margin: 0 auto;
     }
 
@@ -201,7 +207,7 @@ header {
         opacity: 1;
         visibility: visible;
         pointer-events: auto;
-        overflow: auto;
+        overflow: hidden;
         box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
     }
 
@@ -265,7 +271,16 @@ header {
     .line-mobil {
         display: flex;
         flex-direction: column;
+
     }
+
+    .shadow {
+        border-radius: 14px;
+        opacity: 0.6000000238418579;
+        background: #91AFBA;
+        filter: blur(50px);
+    }
+
 
 }
 
@@ -275,10 +290,11 @@ header {
 @media screen and (min-width:768px) {
 
     .container {
-        max-width: 768px;
-        padding-left: 25px;
-        padding-right: 32px;
+        width: 768px;
+        padding: 0 32px;
         margin-left: 0px;
+        margin-right: 0px;
+
 
     }
 
@@ -293,6 +309,7 @@ header {
 
 
     .header-menu {
+        margin-left: auto;
         display: flex;
         align-items: center;
         justify-content: flex-end;
@@ -311,12 +328,13 @@ header {
         padding-bottom: 24px;
         position: relative;
         color: #F6F5EF;
-        transition: color var(--transition)
+        opacity: 1;
+
     }
 
     .header-menu-link:hover,
     .header-menu-link:focus {
-        color: var(--color-six);
+        opacity: 0.5;
     }
 
 }
@@ -325,13 +343,9 @@ header {
 @media screen and (min-width:1280px) {
 
     .container {
-        max-width: 1280px;
-        padding-left: 26px;
-        padding-right: 32px;
-        margin-left: 0px;
+        width: 1280px;
+        padding: 0 32px;
     }
-
-
 
     .nav {}
 
@@ -341,7 +355,6 @@ header {
         justify-content: flex-end;
         column-gap: 24px;
     }
-
 
 
 }
