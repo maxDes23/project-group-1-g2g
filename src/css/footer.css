@@ -9,27 +9,11 @@ ul, li {
     .container {
          background: #11131F;
     }
-    @media screen and (min-width:768px) {
-        .container {
-           width:768px;
-            padding: 0 32px;
-            margin: 0 auto;
-        }
-    }
-    @media screen and (min-width:1280px) {
-        .container {
-            width:1280px;
-            padding: 0 32px;
-            margin: 0 auto;
-        }
-    }
 
 /*CONTAINER-FOOTER*/
 .container-footer {
     overflow: hidden;
     position: relative;
-    padding: 0 20px;
-    margin: 0 auto;
 }
 
 /*FOOTER-BOX*/
@@ -39,8 +23,8 @@ ul, li {
 }
     @media screen and (min-width:768px) {
         .footer-box {
-            display: flex;
-      justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
     align-items: flex-start;
     align-content: center;
     flex-direction: row;
