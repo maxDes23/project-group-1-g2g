@@ -87,8 +87,8 @@
     flex-shrink: 0;
     border-radius: 420px;
     opacity: 0.6000000238418579;
-    background: #93ABAE;
-    filter: blur(100px);
+    background: #f8fdf5;
+    filter: blur(200px);
     background-size: cover;
     animation: rotate 8s linear infinite;
     left: -65px;
@@ -120,8 +120,8 @@
     flex-shrink: 0;
     border-radius: 190px;
     opacity: 0.30000001192092896;
-    background: #A6A9B2;
-    filter: blur(100px);
+    background: #d1f6d6;
+    filter: blur(200px);
     background-size: cover;
     animation: rotate 8s linear infinite;
     right: 23px;
