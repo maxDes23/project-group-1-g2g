@@ -1,4 +1,4 @@
-<section class="rent-blok">
+<section id="rent-blok" class="rent-blok">
   <div class="rent-container container">
     <div class="title-img-cont">
       <h2 class="title-rent">Rent a yacht now</h2>
@@ -22,7 +22,7 @@
               id="user-name"
               name="user-name"
               class="rent-input"
-              placeholder=""
+
             />
           </div>
         </div>
@@ -34,31 +34,25 @@
               id="user-email"
               name="user-email"
               class="rent-input"
-              placeholder=""
+
             />
           </div>
         </div>
         <div class="rent-field">
           <label for="user-phone" class="input-label">Phone number</label>
-          <div class="rent-lite"></div>
           <div class="input-wrap">
             <input
               type="tel"
               name="user-phone"
               id="user-phone"
               class="rent-input"
-              placeholder=""
+
             />
           </div>
         </div>
         <div class="rent-comment">
           <label for="user-comment" class="input-label">Comment</label>
-          <textarea
-            id="user-comment"
-            name="user-comment"
-            class="rent-texterea"
-            placeholder="Text input"
-          >
+          <textarea id="user-comment" name="user-comment" class="rent-texterea">
           </textarea>
         </div>
       </form>
@@ -72,6 +66,7 @@
       </button>
     </div>
   </div>
+  <div class="rent-lite"></div>
 </section>
 <div data-modal class="backdrop is-hidden">
   <div class="modal-window">
@@ -102,19 +97,4 @@
     <div class="rent-modal-lite"></div>
   </div>
 </div>
- <script>
-      (() => {
-        const refs = {
-          openMenuBtn: document.querySelector('[data-menu-open]'),
-          closeMenuBtn: document.querySelector('[data-menu-close]'),
-          menu: document.querySelector('[data-menu]'),
-        };
-
-        refs.openMenuBtn.addEventListener('click', toggleModal);
-        refs.closeMenuBtn.addEventListener('click', toggleModal);
-
-        function toggleModal() {
-          refs.menu.classList.toggle('is-open');
-        }
-      })();
-    </script>
+<script src="./js/modal-window.js"></script>
