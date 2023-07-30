@@ -18,81 +18,143 @@
           <button type="button" class="hero-btn-start">Get Started</button>
         </li>
         <li class="hero-btn-item">
-          <a href="#services"
-            ><button type="button" class="hero-btn-explore">Explore</button></a
-          >
+          <a href="#services" class="hero-btn-explore">Explore</a>
         </li>
       </ul>
     </div>
     <div class="hero-card-container">
+      <!-- clients -->
       <div class="hero-clients-container">
         <ul class="hero-list-clients">
+          <!-- dark-men -->
           <li hero-list-item>
-            <img
-              class="hero-clients-photo dark-men"
-              srcset="
-                ./img/review/photo01@1x.jpg 1x,
-                ./img/review/photo01@2x.jpg 2x
-              "
-              src="./img/review/photo01@2x.jpg"
-              alt="photo of John Wax"
-              width="48"
-              height="48"
-            />
+            <picture>
+              <source
+                srcset="
+                  ./img/hero/dark-men-p@1x.jpg 1x,
+                  ./img/hero/dark-men-p@2x.jpg 2x
+                "
+                media="(max-width: 767.99px)"
+              />
+              <source
+                srcset="
+                  ./img/hero/dark-men-td@1x.jpg 1x,
+                  ./img/hero/dark-men-td@2x.jpg 2x
+                "
+                media="(min-width: 768px)"
+              />
+              <img
+                class="hero-clients-photo dark-men"
+                src="./img/hero/dark-men-p@2x.jpg"
+                alt="photo of John Wax"
+                width="48"
+                height="48"
+              />
+            </picture>
           </li>
+
+          <!-- women -->
           <li hero-list-item>
-            <img
-              class="hero-clients-photo women"
-              srcset="
-                ./img/review/photo02@1x.jpg 1x,
-                ./img/review/photo02@2x.jpg 2x
-              "
-              src="./img/review/photo02@2x.jpg"
-              alt="photo of Victoria Romashenko"
-              width="48"
-              height="48"
-            />
+            <picture>
+              <source
+                srcset="
+                  ./img/hero/women-p@1x.jpg 1x,
+                  ./img/hero/women-p@2x.jpg 2x
+                "
+                media="(max-width: 767.99px)"
+              />
+              <source
+                srcset="
+                  ./img/hero/women-td@1x.jpg 1x,
+                  ./img/hero/women-td@2x.jpg 2x
+                "
+                media="(min-width: 768px)"
+              />
+              <img
+                class="hero-clients-photo women"
+                src="./img/hero/women-p@2x.jpg"
+                alt="photo of Victoria Romashenko"
+                width="48"
+                height="48"
+              />
+            </picture>
           </li>
+
+          <!-- light-men -->
           <li hero-list-item>
-            <img
-              class="hero-clients-photo light-men"
-              srcset="
-                ./img/hero/light-men@1x.jpg 1x,
-                ./img/hero/light-men@2x.jpg 2x
-              "
-              src="./img/hero/light-men@1x.jpg"
-              alt="photo of Ihor Trachuk"
-              width="50"
-              height="50"
-            />
+            <picture>
+              <source
+                srcset="
+                  ./img/hero/light-men-p@1x.jpg 1x,
+                  ./img/hero/light-men-p@2x.jpg 2x
+                "
+                media="(max-width: 767.99px)"
+              />
+              <source
+                srcset="
+                  ./img/hero/light-men-td@1x.jpg 1x,
+                  ./img/hero/light-men-td@2x.jpg 2x
+                "
+                media="(min-width: 768px)"
+              />
+              <img
+                class="hero-clients-photo light-men"
+                src="./img/hero/light-men-p@2x.jpg"
+                alt="photo of Ihor Trachuk"
+                width="48"
+                height="48"
+              />
+            </picture>
           </li>
         </ul>
         <p class="client-title">OUR CLIENTS</p>
       </div>
-      <img
-        class="hero-photo-yahtas"
-        srcset="./img/hero/yaht@1x.png 1x, ./img/hero/yaht@2x.png 2x"
-        src="./img/hero/yaht@1x.png"
-        alt="yaht"
-        width="378"
-        height="221"
-        loading="lazy"
-      />
+
+      <!-- yahts photo -->
+      <picture>
+        <source
+          srcset="./img/hero/yaht-p@1x.png 1x, ./img/hero/yaht-p@2x.png 2x"
+          media="(max-width: 767.99px)"
+        />
+        <source
+          srcset="./img/hero/yaht-td@1x.png 1x, ./img/hero/yaht-td@2x.png 2x"
+          media="(min-width: 768px)"
+        />
+        <img
+          class="hero-photo-yahtas"
+          src="./img/hero/yaht-p@2x.png"
+          alt="yaht"
+          width="378"
+          height="221"
+          loading="lazy"
+        />
+      </picture>
+
       <div class="hero-price-container">
         <p class="hero-cost">12$M</p>
         <p class="hero-description">
           Book now and make your dream yacht rental a reality
         </p>
       </div>
-      <img
-        class="hero-owners-photo"
-        srcset="./img/hero/man@1x.jpg 1x, ./img/hero/man@2x.jpg 2x"
-        src="./img/hero/man@1x.jpg"
-        alt="owner yahts"
-        width="233"
-        height="233"
-      />
-      <span class="for-fon"></span>
+
+      <!-- owner -->
+      <picture>
+        <source
+          srcset="./img/hero/owner-p@1x.jpg 1x, ./img/hero/owner-p@2x.jpg 2x"
+          media="(max-width: 767.99px)"
+        />
+        <source
+          srcset="./img/hero/owner-td@1x.jpg 1x, ./img/hero/owner-td@2x.jpg 2x"
+          media="(min-width: 768px)"
+        />
+        <img
+          class="hero-owners-photo"
+          src="./img/hero/owner-p@2x.jpg"
+          alt="owner yahts"
+          width="233"
+          height="233"
+        />
+      </picture>
     </div>
   </div>
 </section>
