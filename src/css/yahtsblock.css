@@ -1,74 +1,74 @@
 
 .yahtsblock_container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 0 auto;
-    gap: 40px;
-    padding-bottom: 80px;
-    }
-    
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 auto;
+  gap: 40px;
+  padding-bottom: 80px;
+}
+
 @media only screen and (min-width: 768px) {
-      .yahtsblock_container {
+  .yahtsblock_container {
     gap: 64px;
     padding-bottom: 100px;
     padding-left: 64px;
-      }
-    }
-    
+  }
+}
+
 @media only screen and (min-width: 1280px) {
-      .yahtsblock_container {
+  .yahtsblock_container {
     padding-bottom: 164px;
     padding-left: 199px;
-      }
-    }
+  }
+}
 
 .yahtsblock_title {
-    font-family: DM Sans;
-    color: var(--white);
-    max-width: 310px;
-    font-size: 36px;
-    font-weight: 500;
-    line-height: 1.1;
-    letter-spacing: -1.62px;
-    }
-    
+  font-family: DM Sans;
+  color: var(--white);
+  max-width: 310px;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -1.62px;
+}
+
 @media only screen and (min-width: 768px) {
-        .yahtsblock_title {
+  .yahtsblock_title {
     font-size: 70px;
     letter-spacing: -3.15px;
     max-width: 641px;
-      }
-    }
-    
+  }
+}
+
 @media only screen and (min-width: 1280px) {
-      .yahtsblock_title {
+  .yahtsblock_title {
     font-size: 100px;
     letter-spacing: -4.5px;
     max-width: 882px;
-      }
-    }
+  }
+}
 
-  /**
+/**
     |============================
     | Rent Button styles
     |============================
   */
-    
+
 .anchor-btn {
-    font-family: DM Sans;
-    color: var(--white);
-    background-color: var(--dark-blue);
-    border: 1px solid #F6F5EF;
-    border-radius: 60px;
-    display: flex;
-    padding: 14px 28px;
-    align-items: flex-start;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.1;
-    letter-spacing: -0.81px;
-    }
+  font-family: DM Sans;
+  color: var(--white);
+  background-color: var(--dark-blue);
+  border: 1px solid #f6f5ef;
+  border-radius: 60px;
+  display: flex;
+  padding: 14px 28px;
+  align-items: flex-start;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.81px;
+}
 /**
   |============================
   | Shadow styles
@@ -76,8 +76,8 @@
 */
 
 .circle-container {
-    display: flex;
-    position: relative;
+  display: flex;
+  position: relative;
 }
 
 .circle1 {
@@ -88,30 +88,30 @@
     flex-shrink: 0;
     border-radius: 420px;
     opacity: 0.6000000238418579;
-    background: #f8fdf5;
-    filter: blur(200px);
+    background: #93ABAE;
+    filter: blur(100px);
     background-size: cover;
     animation: rotate 8s linear infinite;
     left: -65px;
   }
 
-@media screen and (min-width:768px){
-  .circle1{
+@media screen and (min-width: 768px) {
+  .circle1 {
     width: 399px;
     height: 399px;
     transform: rotate(-44.094deg);
     border-radius: 399px;
-      }
   }
-@media screen and (min-width:1280px) {
+}
+@media screen and (min-width: 1280px) {
   .circle1 {
     width: 414px;
     height: 414px;
     transform: rotate(-45.044deg);
     border-radius: 414px;
     left: 56px;
-      }
   }
+}
 
   .circle2 {
     position: absolute;
@@ -121,35 +121,193 @@
     flex-shrink: 0;
     border-radius: 190px;
     opacity: 0.30000001192092896;
-    background: #d1f6d6;
-    filter: blur(200px);
+    background: #A6A9B2;
+    filter: blur(100px);
     background-size: cover;
     animation: rotate 8s linear infinite;
     right: 23px;
   }
 
-@media screen and (min-width:768px){
+@media screen and (min-width: 768px) {
   .circle2 {
     width: 304px;
     height: 304px;
     transform: rotate(-44.094deg);
     border-radius: 304px;
     right: 100px;
-      }
   }
-@media screen and (min-width:1280px) {
+}
+@media screen and (min-width: 1280px) {
   .circle2 {
     width: 316px;
     height: 316px;
     transform: rotate(-45.074deg);
     border-radius: 316px;
     right: 420px;
-      }
   }
+}
+
 
   @keyframes rotate {
     100% {
         transform: rotate(360deg);
     }
 }
+
+
+/**
+  |============================
+  | Yahts cards
+  |============================
+*/
+
+@media only screen and (min-width: 1280px) {
+  .yahts-cards {
+    margin: 0 11px;
+  }
+}
+
+.yahts-cards-list {
+  margin-bottom: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+  .yahts-cards-list {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+
+}
+.yahts-cards-item {
+  width: 335px;
+  height: 469px;
+  padding: 18px 18px 24px 18px;
+  border-radius: 24px;
+  background: #1F212D;
+}
+
+@media only screen and (min-width: 768px) {
+  .yahts-cards-item {
+    width: 354px;
+    height: 508px;
+    padding: 16px 16px 32px 16px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .yahts-cards-img {
+    width: 312px;
+    height: 268px;
+  }
+}
+
+.yahts-cards-sub {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 6px;
+}
+
+@media only screen and (min-width: 768px) {
+  .yahts-cards-sub {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 16px;
+  }
+}
+
+
+.yahts-cards-subtitle {
+  color: var(--white);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19.2px;
+  letter-spacing: -0.045em;
+  text-transform: uppercase;
+}
+
+.yahts-cards-text {
+  color: var(--white);
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14.16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+.yahts-specifications {
+  display: flex;
+  justify-content: flex-start;
+  gap: 32px;
+  padding-left: 6px;
+}
+
+@media only screen and (min-width: 768px) {
+  .yahts-specifications {
+    padding-left: 16px;
+  }
+}
+
+.yahts-left-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.yahts-left-item {
+  color: var(--white);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16.52px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.yahts-right-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.yahts-right-item {
+  color: var(--white);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16.52px;
+  letter-spacing: 0.03em;
+}
+
+@media only screen and (max-width: 767px) {
+  .cards-2 {
+    display: none;
+  } 
+}
+
+@media only screen and (max-width: 1280px) {
+  .cards-3 {
+    display: none;
+  } 
+}
+
+.cards-4 {
+  display: none;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 
