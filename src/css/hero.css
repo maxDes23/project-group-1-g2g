@@ -170,12 +170,7 @@
 }
 
 .hero-card-container {
-
-  background-color: lightgray;
-  background-image: url('../img/hero/fon-p@1x.jpg');
-
-  background-color: var(--text-cart);
-  background-image: url('./img/hero/fon-p@1x.jpg');
+  background-image: url('../img/hero/fon-p@1x.png');
 
   background-repeat: no-repeat;
   background-position: center;
@@ -196,14 +191,14 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero-card-container {
-    background-image: url('../img/hero/fon-p@2x.jpg');
+    background-image: url('../img/hero/fon-p@2x.png');
   }
 }
 
 /* Tablet screen */
 @media only screen and (min-width: 768px) {
   .hero-card-container {
-    background-image: url('../img/hero/fon-t@1x.jpg');
+    background-image: url('../img/hero/fon-t@1x.png');
     padding-top: 27px;
     padding-bottom: 64px;
     width: 426px;
@@ -215,26 +210,26 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero-card-container {
-      background-image: url('../img/hero/fon-t@2x.jpg');
+      background-image: url('../img/hero/fon-t@2x.png');
     }
   }
 }
 /* Desktop screen */
 @media only screen and (min-width: 1280px) {
   .hero-card-container {
-    background-image: url('../img/hero/fon-d@1x.jpg');
+    background-image: url('../img/hero/fon-d@1x.png');
   }
   /* Retina*/
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero-card-container {
-      background-image: url('../img/hero/fon-d@2x.jpg');
+      background-image: url('../img/hero/fon-d@2x.png');
     }
   }
 }
 
-.hero-card-container::after {
+/* .hero-card-container::after {
   content: '';
   position: absolute;
   bottom: 0px;
@@ -271,18 +266,17 @@
   background-color: transparent;
   border-bottom-left-radius: 30px;
   box-shadow: -10px 10px 0 var(--dark-blue);
-}
+} */
 
 .hero-light {
   position: absolute;
-  top: 350px;
+  top: 427px;
   left: -167px;
   width: 279px;
   height: 279px;
   transform: rotate(-44.916deg);
   flex-shrink: 0;
   border-radius: 279px;
-  border-radius: 30px;
   opacity: 0.8999999761581421;
   background: #939cac;
   filter: blur(100px);
