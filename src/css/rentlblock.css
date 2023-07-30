@@ -33,8 +33,7 @@
   background: transparent;
   border: none;
   border-bottom: 1px solid #f6f5ef;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 0 12px;
   outline: transparent;
   font-size: 16px;
   color: #f6f5ef;
@@ -111,17 +110,20 @@
 }
 
 .rent-lite {
+  display: flex;
   position: absolute;
+  left: 300px;
+  top: 4800px;
   width: 283px;
   height: 283px;
   transform: rotate(-44.916deg);
   flex-shrink: 0;
   border-radius: 283px;
-  opacity: 0.6000000238418579;
+  opacity: 0.6;
   background: #91afba;
   filter: blur(100px);
   background-size: cover;
-  right: -70px;
+  animation: rotate 8s linear infinite;
 }
 
 .rent-modal-lite {
@@ -242,8 +244,9 @@
   .rent-lite {
     width: 413px;
     height: 413px;
+    top: 5450px;
     border-radius: 413px;
-    right: -100px;
+    left: 650px;
   }
   .rent-modal-lite {
     width: 265px;
@@ -289,7 +292,8 @@
   .rent-lite {
     width: 414px;
     height: 414px;
-    right: -100px;
+    top: 4400px;
+    left: 950px;
     border-radius: 414px;
   }
 }
