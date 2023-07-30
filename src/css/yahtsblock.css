@@ -1,3 +1,4 @@
+
 .yahtsblock_container {
   display: flex;
   flex-direction: column;
@@ -153,6 +154,7 @@
     }
 }
 
+
 /**
   |============================
   | Yahts cards
@@ -307,4 +309,5 @@
     transform: rotate(360deg);
   }
 }
+
 
