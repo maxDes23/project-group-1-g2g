@@ -1,61 +1,104 @@
 <section>
-  <div class="container">
+  <div class="services container">
     <h2 class="visually-hidden" id="services">Services</h2>
     <ul class="services-list">
       <li class="services-item first">
-        <img
-          class="services-image"
-          srcset="
-            ./img/services/diving-mob@1x.jpg  1x,
-            ./img/services/diving-mob@2x.jpg  2x,
-            ./img/services/diving-tabl@1x.jpg 1x,
-            ./img/services/diving-tabl@2x.jpg 2x,
-            ./img/services/diving-desc@1x.jpg 1x,
-            ./img/services/diving-desc@2x.jpg 2x
-          "
-          src="./img/services/diving-mob@1x.jpg"
-          alt="a diver in a mask and fins swims under water"
-          width="712"
-          height="632"
-        />
+        <picture>
+          <source
+            srcset="
+              ./img/services/diving-mob@1x.jpg 1x,
+              ./img/services/diving-mob@2x.jpg 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <source
+            srcset="
+              ./img/services/diving-tabl@1x.jpg 1x,
+              ./img/services/diving-tabl@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ./img/services/diving-desc@1x.jpg 1x,
+              ./img/services/diving-desc@2x.jpg 2x
+            "
+            media="(min-width: 1280px)"
+          />
+          <img
+            src="./img/services/diving-mob@2x.jpg"
+            alt="a diver in a mask and fins swims under water"
+            width="712"
+            height="632"
+          />
+        </picture>
         <p class="services-text">Diving</p>
       </li>
       <li class="services-item second">
-        <img
-          class="services-image"
-          srcset="
-            ./img/services/fishing-mob@1x.jpg  1x,
-            ./img/services/fishing-mob@2x.jpg  2x,
-            ./img/services/fishing-tabl@1x.jpg 1x,
-            ./img/services/fishing-tabl@2x.jpg 2x,
-            ./img/services/fishing-desc@1x.jpg 1x,
-            ./img/services/fishing-desc@2x.jpg 2x
-          "
-          src="./img/services/fishing-mob@1x.jpg"
-          alt="fishing rod with reel in hands"
-          width="440"
-          height="428"
-        />
+        <picture>
+          <source
+            srcset="
+              ./img/services/fishing-mob@1x.jpg 1x,
+              ./img/services/fishing-mob@2x.jpg 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <source
+            srcset="
+              ./img/services/fishing-tabl@1x.jpg 1x,
+              ./img/services/fishing-tabl@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ./img/services/fishing-desc@1x.jpg 1x,
+              ./img/services/fishing-desc@2x.jpg 2x
+            "
+            media="(min-width: 1280px)"
+          />
+          <img
+            src="./img/services/fishing-mob@2x.jpg"
+            alt="fishing rod with reel in hands"
+            width="440"
+            height="428"
+          />
+        </picture>
         <p class="services-text">Fishing</p>
       </li>
       <li class="services-item third">
-        <img
-          class="services-image"
-          srcset="
-            ./img/services/sunbathing-mob@1x.jpg  1x,
-            ./img/services/sunbathing-mob@2x.jpg  2x,
-            ./img/services/sunbathing-tabl@1x.jpg 1x,
-            ./img/services/sunbathing-tabl@2x.jpg 2x,
-            ./img/services/sunbathing-desc@1x.jpg 1x,
-            ./img/services/sunbathing-desc@2x.jpg 2x
-          "
-          src="./img/services/sunbathing-mob@1x.jpg"
-          alt="view on the sky under white umbrellas"
-          width="436"
-          height="352"
-        />
+        <picture>
+          <source
+            srcset="
+              ./img/services/sunbathing-mob@1x.jpg 1x,
+              ./img/services/sunbathing-mob@2x.jpg 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <source
+            srcset="
+              ./img/services/sunbathing-tabl@1x.jpg 1x,
+              ./img/services/sunbathing-tabl@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ./img/services/sunbathing-desc@1x.jpg 1x,
+              ./img/services/sunbathing-desc@2x.jpg 2x
+            "
+            media="(min-width: 1280px)"
+          />
+          <img
+            src="./img/services/sunbathing-mob@2x.jpg"
+            alt="view on the sky under white umbrellas"
+            width="436"
+            height="352"
+          />
+        </picture>
         <p class="services-text">Sunbathing</p>
       </li>
     </ul>
+    <div class="services-section-light"></div>
   </div>
 </section>
