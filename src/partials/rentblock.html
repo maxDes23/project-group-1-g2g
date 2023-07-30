@@ -1,0 +1,104 @@
+<section class="rent-blok">
+  <div class="rent-container container">
+    <div class="title-img-cont">
+      <h2 class="title-rent">Rent a yacht now</h2>
+      <img
+        class="img-yaht"
+        src="./img/rentblok/rentblok-img-yaht.png"
+        srcset="
+          ./img/rentblok/rentblok-img-yaht.png    1x,
+          ./img/rentblok/rentblok-img-yaht@2x.png 2x
+        "
+        alt="yaht-rent"
+      />
+    </div>
+    <div class="form-cont">
+      <form class="rent-form">
+        <div class="rent-field">
+          <label for="user-name" class="input-label">Full Name</label>
+          <div class="input-wrap">
+            <input
+              type="text"
+              id="user-name"
+              name="user-name"
+              class="rent-input"
+              placeholder=""
+            />
+          </div>
+        </div>
+        <div class="rent-field">
+          <label for="user-email" class="input-label">Email</label>
+          <div class="input-wrap">
+            <input
+              type="email"
+              id="user-email"
+              name="user-email"
+              class="rent-input"
+              placeholder=""
+            />
+          </div>
+        </div>
+        <div class="rent-field">
+          <!-- <div class="rent-lite"></div> -->
+          <label for="user-phone" class="input-label">Phone number</label>
+          <div class="input-wrap">
+            <input
+              type="tel"
+              name="user-phone"
+              id="user-phone"
+              class="rent-input"
+              placeholder=""
+            />
+          </div>
+        </div>
+        <div class="rent-comment">
+          <label for="user-comment" class="input-label">Comment</label>
+          <textarea
+            id="user-comment"
+            name="user-comment"
+            class="rent-texterea"
+            placeholder="Text input"
+          >
+          </textarea>
+        </div>
+      </form>
+      <button data-modal-open class="rent-btn-send" type="submit">
+        Send
+        <span
+          ><svg class="icon-rent-send" width="18" height="8.66">
+            <use href="./img/icons.svg#arrow_right"></use>
+          </svg>
+        </span>
+      </button>
+    </div>
+  </div>
+</section>
+<div data-modal class="backdrop is-hidden">
+  <div class="modal-window">
+    <button type="button" data-modal-close class="modal-button">
+      <svg class="icon-close">
+        <use href="./img/icons.svg#x_close"></use>
+      </svg>
+    </button>
+    <div>
+      <div class="rent-back-lite"></div>
+      <img
+        class="img-yaht-modal"
+        src="./img/rentblok/rentblok-img-modal.png"
+        srcset="
+          ./img/rentblok/rentblok-img-modal.png    1x,
+          ./img/rentblok/rentblok-img-modal@2x.png 2x
+        "
+        alt="yaht-modal"
+      />
+      <h4 class="rent-modal-title">Thank You</h4>
+      <p class="rent-modal-text">
+        Thank you for choosing Yacht Adventures, your booking details have been
+        received and our team will be in touch shortly to confirm your
+        reservation and provide any additional information or assistance you may
+        need.
+      </p>
+    </div>
+    <div class="rent-modal-lite"></div>
+  </div>
+</div>
