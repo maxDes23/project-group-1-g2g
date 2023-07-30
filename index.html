@@ -16,7 +16,7 @@
     />
     <!-- Custom styles -->
     
-    <link rel="stylesheet" href="/project-group-1-yacht/assets/index-c3e264b6.css">
+    <link rel="stylesheet" href="/project-group-1-yacht/assets/index-8fee9dc2.css">
   </head>
   <body>
     
@@ -963,11 +963,8 @@
     ></script>
 
     <script src="./js/menu.js"></script>
-  
 
     <script defer src="./js/modal.js"></script>
-
-
 
     <script>
       (() => {
@@ -983,6 +980,37 @@
         function toggleModal() {
           refs.menu.classList.toggle('is-open');
         }
+      })();
+
+      (() => {
+        const mobileMenu = document.querySelector('.js-menu-container');
+        const openMenuBtn = document.querySelector('.js-open-menu');
+        const closeMenuBtn = document.querySelector('.js-close-menu');
+
+        const toggleMenu = () => {
+          const isMenuOpen =
+            openMenuBtn.getAttribute('aria-expanded') === 'true' || false;
+          openMenuBtn.setAttribute('aria-expanded', !isMenuOpen);
+          mobileMenu.classList.toggle('is-open');
+
+          const scrollLockMethod = !isMenuOpen
+            ? 'disableBodyScroll'
+            : 'enableBodyScroll';
+          bodyScrollLock[scrollLockMethod](document.body);
+        };
+
+        openMenuBtn.addEventListener('click', toggleMenu);
+        closeMenuBtn.addEventListener('click', toggleMenu);
+
+        // Close the mobile menu on wider screens if the device orientation changes
+        window
+          .matchMedia('(min-width: 768px)')
+          .addEventListener('change', e => {
+            if (!e.matches) return;
+            mobileMenu.classList.remove('is-open');
+            openMenuBtn.setAttribute('aria-expanded', false);
+            bodyScrollLock.enableBodyScroll(document.body);
+          });
       })();
     </script>
   </body>
