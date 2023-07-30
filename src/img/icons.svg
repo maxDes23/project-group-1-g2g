@@ -30,6 +30,12 @@
     </symbol>
     <symbol id="close-mobil" viewBox="0 0 32 32">
      <path d="M32 3.223l-3.223-3.223-12.777 12.777-12.777-12.777-3.223 3.223 12.777 12.777-12.777 12.777 3.223 3.223 12.777-12.777 12.777 12.777 3.223-3.223-12.777-12.777 12.777-12.777z"></path>
-     </symbol>
+    </symbol>
+    <symbol id="arrow_left_slayd" viewBox="0 0 72 32">
+      <path d="M22 0l-22 16 22 16v-13.229h50v-5.543h-50v-13.229z"></path>
+    </symbol>
+    <symbol id="arrow_right_slayd" viewBox="0 0 72 32">
+      <path d="M50 0l22 16-22 16v-13.229h-50v-5.543h50v-13.229z"></path>
+    </symbol>
   </defs>
 </svg>
