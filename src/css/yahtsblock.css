@@ -80,19 +80,19 @@
 }
 
 .circle1 {
-  position: absolute;
-  width: 255px;
-  height: 255px;
-  transform: rotate(-44.916deg);
-  flex-shrink: 0;
-  border-radius: 420px;
-  opacity: 0.6000000238418579;
-  background: #93abae;
-  filter: blur(100px);
-  background-size: cover;
-  animation: rotate 8s linear infinite;
-  left: -65px;
-}
+    position: absolute;
+    width: 255px;
+    height: 255px;
+    transform: rotate(-44.916deg);
+    flex-shrink: 0;
+    border-radius: 420px;
+    opacity: 0.6000000238418579;
+    background: #93ABAE;
+    filter: blur(100px);
+    background-size: cover;
+    animation: rotate 8s linear infinite;
+    left: -65px;
+  }
 
 @media screen and (min-width: 768px) {
   .circle1 {
@@ -112,20 +112,20 @@
   }
 }
 
-.circle2 {
-  position: absolute;
-  width: 195px;
-  height: 195px;
-  transform: rotate(-44.916deg);
-  flex-shrink: 0;
-  border-radius: 190px;
-  opacity: 0.30000001192092896;
-  background: #a6a9b2;
-  filter: blur(100px);
-  background-size: cover;
-  animation: rotate 8s linear infinite;
-  right: 23px;
-}
+  .circle2 {
+    position: absolute;
+    width: 195px;
+    height: 195px;
+    transform: rotate(-44.916deg);
+    flex-shrink: 0;
+    border-radius: 190px;
+    opacity: 0.30000001192092896;
+    background: #A6A9B2;
+    filter: blur(100px);
+    background-size: cover;
+    animation: rotate 8s linear infinite;
+    right: 23px;
+  }
 
 @media screen and (min-width: 768px) {
   .circle2 {

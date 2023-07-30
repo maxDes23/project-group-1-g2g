@@ -112,6 +112,11 @@ main {
 
 
 @media screen and (max-width: 767px) {
+    .review-tablet, .review-desctop {
+        display: none;
+    }
+
+
     .review-text-blk {
         margin-bottom: 24px;
     }
@@ -138,11 +143,18 @@ main {
     .card3 {
         display: none;
     }
+    .review-desctop {
+        display: none;
+    }
 
 }
 
 /* for tablet screen */
 @media screen and (min-width: 768px) {
+    .review-mobile {
+        display: none;
+    }
+
     
     .review-text-blk {
         margin-bottom: 64px;
@@ -182,6 +194,11 @@ main {
 
     /* for desctop screen */
     @media screen and (min-width: 1280px) {
+        .review-tablet {
+            display: none;
+        }
+
+
         .review-text-blk {
             display: flex;
             flex-direction: row;
@@ -216,3 +233,4 @@ main {
             letter-spacing: -0.32px;
         }
     }
+
