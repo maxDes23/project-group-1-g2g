@@ -54,20 +54,6 @@
     |============================
   */
     
-.anchor-btn {
-    font-family: DM Sans;
-    color: var(--white);
-    background-color: var(--dark-blue);
-    border: 1px solid #F6F5EF;
-    border-radius: 60px;
-    display: flex;
-    padding: 14px 28px;
-    align-items: flex-start;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.1;
-    letter-spacing: -0.81px;
-    }
 /**
   |============================
   | Shadow styles
