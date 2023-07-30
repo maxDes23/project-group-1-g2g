@@ -110,18 +110,17 @@
   gap: 24px;
 }
 
-/* .rent-lite {
+.rent-lite {
   position: absolute;
   width: 283px;
   height: 283px;
+  right: -150px;
   transform: rotate(-45deg);
   border-radius: 283px;
   opacity: 0.6;
   background: #91afba;
   filter: blur(100px);
-  right: -15%;
-  bottom: 858px;
-} */
+}
 
 .rent-modal-lite {
   position: absolute;
@@ -238,10 +237,9 @@
     width: 24px;
     height: 24px;
   }
-  /* .rent-lite {
-    right: -25%;
-    bottom: 905px;
-  } */
+  .rent-lite {
+    right: -15%;
+  }
   .rent-modal-lite {
     width: 265px;
     height: 265px;
@@ -286,8 +284,7 @@
   .rent-lite {
     width: 414px;
     height: 414px;
-    right: -15%;
+
     border-radius: 414px;
-    bottom: 860px;
   }
 }
