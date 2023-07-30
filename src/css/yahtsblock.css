@@ -1,5 +1,5 @@
 
-.yahtsblock_container {
+.yacht-title-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -9,7 +9,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .yahtsblock_container {
+  .yacht-title-container {
     gap: 64px;
     padding-bottom: 100px;
     padding-left: 64px;
@@ -17,7 +17,7 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .yahtsblock_container {
+  .yacht-title-container {
     padding-bottom: 164px;
     padding-left: 199px;
   }
