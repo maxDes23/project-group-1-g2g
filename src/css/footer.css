@@ -11,9 +11,8 @@ ul, li {
     }
 
 /*CONTAINER-FOOTER*/
-.container-footer {
+.footer {
     overflow: hidden;
-    position: relative;
 }
 
 /*FOOTER-BOX*/
@@ -288,43 +287,76 @@ ul, li {
 
     }
 /*LIGHT*/
-    .light {
-        position: absolute;
-        width: 420px;
-        height: 420px;
-        transform: rotate(-45.408deg);
-        flex-shrink: 0;
-        border-radius: 420px;
-        opacity: 0.6000000238418579;
-        background: #93ABAE;
-        filter: blur(100px);
-        background-size: cover;
-    }
-    @media screen and (min-width:768px){
-        .light {
-width: 419px;
+.lights-container {
+    display: flex;
+    position: relative;
+
+}
+.light1 {
+    position: absolute;
+    width: 420px;
+height: 420px;
+bottom: -311px;
+left: 0px;
+transform: rotate(-45.408deg);
+flex-shrink: 0;
+    border-radius: 420px;
+    opacity: 0.6000000238418579;
+    background:  #93ABAE;
+    filter: blur(100px);
+    animation: rotate 8s linear infinite;
+  }
+
+@media screen and (min-width:768px){
+    .light1 {
+        width: 419px;
 height: 419px;
 transform: rotate(-45.565deg);
 flex-shrink: 0;
-border-radius: 419px;
-opacity: 0.6000000238418579;
-background:  #93ABAE;
-filter: blur(100px);
-left: 237px;
-bottom: -384px;
-        }
-    }
-    @media screen and (min-width:1280px) {
-.light {
-position: absolute;
-width: 415px;
-top: 237px;
+        border-radius: 419px;
+        opacity: 0.6000000238418579;
+        background:  #93ABAE;
+        filter: blur(100px);
+        top: -54px;
+        left: 206px;
+        animation: rotate 8s linear infinite;
+      }
+  }
+@media screen and (min-width:1280px) {
+    .light1 {
+        width: 415px;
 height: 415px;
 transform: rotate(-45.044deg);
 flex-shrink: 0;
-border-radius: 415px;
-opacity: 0.6000000238418579;
-background:  #93ABAE;
-filter: blur(100px);
+        border-radius: 415px;
+        opacity: 0.6000000238418579;
+        background:  #93ABAE;
+        filter: blur(100px);
+        left: 188px;
+        top: -21px;
+        animation: rotate 8s linear infinite;
+      }
+  }
+
+    @media screen and (min-width:1280px) {
+        .light2 {
+        position: absolute;
+        width: 317px;
+height: 317px;
+transform: rotate(-45.044deg);
+flex-shrink: 0;
+        border-radius: 317px;
+        opacity: 0.30000001192092896;
+        background: #A6A9B2;
+        filter: blur(100px);
+        right: 213px;
+        top: -35px;
+        animation: rotate 8s linear infinite;
+          }
+      }
+    
+      @keyframes rotate {
+        100% {
+            transform: rotate(360deg);
         }
     }
