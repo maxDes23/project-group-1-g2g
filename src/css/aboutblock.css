@@ -79,12 +79,7 @@ align-items: flex-start;
                 width:185px;
                 height:198px;} 
         }
-        .adv-item {min-width: 160px;
-            height:220px}
-            .adv-item-2 {min-width: 161px;
-            height:180px;
-        }
-        
+       
         .adv-img-list {padding-top: 40px;
             gap:24px;
         padding-bottom: 126px;
@@ -93,6 +88,7 @@ flex-direction: column;}
             @media only screen and (min-width:768px) {
                 .adv-img-list {display:flex;
                 flex-wrap: wrap;
+                align-items: flex-start;
                 padding-bottom: 15px;}
             }
             @media only screen and (min-width:1280px) {
