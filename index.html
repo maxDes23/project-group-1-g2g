@@ -10,10 +10,11 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
-    />
+ <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+
     <!-- Custom styles -->
     
     <link rel="stylesheet" href="/project-group-1-yacht/assets/index-ceb52403.css">
@@ -1020,6 +1021,8 @@
             </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
     <script
       defer
       src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
@@ -1029,24 +1032,9 @@
 
 <script src="./js/menu.js"></script>
 
-<script src="./js/"></script>
+<script src="./js/modal.js"></script>
 
 
-    <script>
-      (() => {
-        const refs = {
-          openMenuBtn: document.querySelector('[data-menu-open]'),
-          closeMenuBtn: document.querySelector('[data-menu-close]'),
-          menu: document.querySelector('[data-menu]'),
-        };
-
-        refs.openMenuBtn.addEventListener('click', toggleModal);
-        refs.closeMenuBtn.addEventListener('click', toggleModal);
-
-        function toggleModal() {
-          refs.menu.classList.toggle('is-open');
-        }
-      })();
-    </script>
+  
   </body>
 </html>
