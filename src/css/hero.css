@@ -280,6 +280,8 @@
   opacity: 0.8999999761581421;
   background: #939cac;
   filter: blur(100px);
+  background-size: cover;
+  animation: rotate 8s linear infinite;
 }
 
 @media only screen and (min-width: 768px) {
@@ -289,6 +291,7 @@
     width: 414px;
     height: 414px;
     border-radius: 414px;
+    transform: rotate(-44.094deg);
   }
 }
 
@@ -322,6 +325,9 @@
   opacity: 0.8999999761581421;
   background: #939cac;
   filter: blur(100px);
+
+  background-size: cover;
+  animation: rotate 8s linear infinite;
 }
 
 .hero-light-two {
@@ -337,6 +343,12 @@
   opacity: 0.30000001192092896;
   background: #a6a9b2;
   filter: blur(100px);
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .hero-clients-container {
@@ -385,6 +397,8 @@
   position: absolute;
   left: 82px;
   z-index: 1;
+
+  border: none;
 }
 
 @media only screen and (min-width: 768px) {
