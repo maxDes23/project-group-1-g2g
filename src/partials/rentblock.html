@@ -22,8 +22,7 @@
               id="user-name"
               name="user-name"
               class="rent-input"
-              placeholder=""
-              required
+
             />
           </div>
         </div>
@@ -35,8 +34,7 @@
               id="user-email"
               name="user-email"
               class="rent-input"
-              placeholder=""
-              required
+
             />
           </div>
         </div>
@@ -48,19 +46,13 @@
               name="user-phone"
               id="user-phone"
               class="rent-input"
-              placeholder=""
-              required
+
             />
           </div>
         </div>
         <div class="rent-comment">
           <label for="user-comment" class="input-label">Comment</label>
-          <textarea
-            id="user-comment"
-            name="user-comment"
-            class="rent-texterea"
-            placeholder="Text input"
-          >
+          <textarea id="user-comment" name="user-comment" class="rent-texterea">
           </textarea>
         </div>
       </form>
@@ -105,19 +97,4 @@
     <div class="rent-modal-lite"></div>
   </div>
 </div>
- <script>
-      (() => {
-        const refs = {
-          openMenuBtn: document.querySelector('[data-menu-open]'),
-          closeMenuBtn: document.querySelector('[data-menu-close]'),
-          menu: document.querySelector('[data-menu]'),
-        };
-
-        refs.openMenuBtn.addEventListener('click', toggleModal);
-        refs.closeMenuBtn.addEventListener('click', toggleModal);
-
-        function toggleModal() {
-          refs.menu.classList.toggle('is-open');
-        }
-      })();
-    </script>
+<script src="./js/modal-window.js"></script>
