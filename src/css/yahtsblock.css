@@ -1,3 +1,28 @@
+/* .section-yahtsblock {
+  display: flex;
+  position: relative;
+} */
+@media only screen and (min-width: 1280px) {
+ .element-looper {
+  position: absolute;
+  width: 100%;
+  height: 1928px;
+
+  background-image: linear-gradient(
+      rgba(17, 19, 31, 0.7),
+      rgba(17, 19, 31, 0.7)
+    ),
+    url(../img/LooperGroup.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  stroke-width: 1.458px;
+  stroke: #f6f5ef;
+  opacity: 0.5789473652839661;
+
+  z-index: 0;
+}
+}
+
 
 .yacht-title-container {
   display: flex;
@@ -81,19 +106,19 @@
 }
 
 .circle1 {
-    position: absolute;
-    width: 255px;
-    height: 255px;
-    transform: rotate(-44.916deg);
-    flex-shrink: 0;
-    border-radius: 420px;
-    opacity: 0.6000000238418579;
-    background: #93ABAE;
-    filter: blur(100px);
-    background-size: cover;
-    animation: rotate 8s linear infinite;
-    left: -65px;
-  }
+  position: absolute;
+  width: 255px;
+  height: 255px;
+  transform: rotate(-44.916deg);
+  flex-shrink: 0;
+  border-radius: 420px;
+  opacity: 0.6000000238418579;
+  background: #93abae;
+  filter: blur(100px);
+  background-size: cover;
+  animation: rotate 8s linear infinite;
+  left: -65px;
+}
 
 @media screen and (min-width: 768px) {
   .circle1 {
@@ -113,20 +138,20 @@
   }
 }
 
-  .circle2 {
-    position: absolute;
-    width: 195px;
-    height: 195px;
-    transform: rotate(-44.916deg);
-    flex-shrink: 0;
-    border-radius: 190px;
-    opacity: 0.30000001192092896;
-    background: #A6A9B2;
-    filter: blur(100px);
-    background-size: cover;
-    animation: rotate 8s linear infinite;
-    right: 23px;
-  }
+.circle2 {
+  position: absolute;
+  width: 195px;
+  height: 195px;
+  transform: rotate(-44.916deg);
+  flex-shrink: 0;
+  border-radius: 190px;
+  opacity: 0.30000001192092896;
+  background: #a6a9b2;
+  filter: blur(100px);
+  background-size: cover;
+  animation: rotate 8s linear infinite;
+  right: 23px;
+}
 
 @media screen and (min-width: 768px) {
   .circle2 {
@@ -147,20 +172,17 @@
   }
 }
 
-
-  @keyframes rotate {
-    100% {
-        transform: rotate(360deg);
-    }
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
 }
-
 
 /**
   |============================
   | Yahts cards
   |============================
 */
-
 
 @media only screen and (min-width: 1280px) {
   .yahts-cards {
@@ -180,14 +202,13 @@
     gap: 16px;
     margin-bottom: 32px;
   }
-
 }
 .yahts-cards-item {
   width: 335px;
   height: 469px;
   padding: 18px 18px 24px 18px;
   border-radius: 24px;
-  background: #1F212D;
+  background: #1f212d;
 }
 
 @media only screen and (min-width: 768px) {
@@ -202,7 +223,6 @@
   .yahts-cards-img {
     width: 312px;
     height: 268px;
-    
   }
 }
 
@@ -221,7 +241,6 @@
     padding: 32px 16px;
   }
 }
-
 
 .yahts-cards-subtitle {
   color: var(--white);
@@ -295,13 +314,13 @@
 @media only screen and (max-width: 767px) {
   .cards-2 {
     display: none;
-  } 
+  }
 }
 
 @media only screen and (max-width: 1280px) {
   .cards-3 {
     display: none;
-  } 
+  }
 }
 
 .cards-4 {
@@ -378,5 +397,3 @@
 .slayder-right-btn {
   fill: var(--white);
 }
-
-
