@@ -59,7 +59,7 @@ align-items: flex-start;
         margin-top: 40px;}
         @media only screen and (min-width: 768px) {
             .adv-list {gap:32px;
-            padding-left: 336px;
+            padding-left: 315px;
         padding-bottom: 64px;}
         }
         @media only screen and (min-width: 1280px){
@@ -90,7 +90,11 @@ align-items: flex-start;
             @media only screen and (min-width:768px) {
                 .adv-img-list {display:flex;
                 flex-wrap: wrap;
+                padding-bottom: 15px;}
             }
+            @media only screen and (min-width:1280px) {
+                .adv-img-list {flex-direction: row-reverse;
+                align-items: baseline;}
             }
         .adv-img-item {padding-bottom: 24px;}
 @media only screen and (max-width:767px) {  
@@ -105,17 +109,15 @@ align-items: flex-start;
 }
 }
 .adv-img-third {border-radius: 24px;
-    border: 1px solid #000;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #11131F 100%), url(../img/review/aboutblock/imgyaht3@1x.png), lightgray -86.838px 0px / 166.799% 100% no-repeat;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    mask-image: url(../img/review/aboutblock/imgyaht3@1x.png);
+    -webkit-mask-image:linear-gradient( 180deg, black, rgb(0,0,0,0)); 
     position: absolute;
     bottom: -145px; 
     left: 60%;
     transform: translateX(-50%);
-    
 }
-
+@media only screen and (min-width:768px) {
+    .adv-img-third {left:70%}
+}
     .aboutblock-img {
         position: relative;
         
