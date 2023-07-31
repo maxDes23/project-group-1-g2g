@@ -19,6 +19,7 @@
 .hero-container {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 @media only screen and (min-width: 768px) {
@@ -234,29 +235,32 @@
   }
 }
 
+/* light */
 .hero-light {
   position: absolute;
   top: 427px;
-  left: -167px;
+  left: 0;
   width: 279px;
   height: 279px;
   transform: rotate(-44.916deg);
   flex-shrink: 0;
-  border-radius: 279px;
+  /* border-radius: 279px; */
+  border-radius: 0 0 279px 279px;
   opacity: 0.8999999761581421;
   background: #939cac;
   filter: blur(100px);
   background-size: cover;
   animation: rotate 8s linear infinite;
+  overflow: hidden;
 }
 
 @media only screen and (min-width: 768px) {
   .hero-light {
     top: 554px;
-    left: -287px;
+    left: 0px;
     width: 414px;
     height: 414px;
-    border-radius: 414px;
+    border-radius: 0 0 414px 414px;
     transform: rotate(-44.094deg);
   }
 }
