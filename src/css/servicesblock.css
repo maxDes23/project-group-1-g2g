@@ -1,7 +1,20 @@
 /* Services section styles */
+.services-section {
+    margin-bottom: 80px;
+}
+@media only screen and (min-width: 768px) {
+  .services-section {
+    margin-bottom: 100px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .services-section {
+    margin-bottom: 164px;
+  }
+}
 .services.container {
     position: relative;
-    overflow: hidden;
+    
 }
 @media only screen and (min-width: 1280px) {
     .services-list {
@@ -116,6 +129,7 @@
     opacity: 0.6;
     background: var(--light-green);
     filter: blur(100px);
+    animation: rotate 8s linear infinite;
     
 }
 @media only screen and (min-width: 768px) {
@@ -132,4 +146,9 @@
     top: 230px;
     left: -210px;
   }
+}
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
 }
