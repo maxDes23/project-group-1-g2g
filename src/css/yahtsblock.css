@@ -128,7 +128,7 @@
   border-radius: 420px;
   opacity: 0.6000000238418579;
   background: #93abae;
-  filter: blur(100px);
+  filter: blur(200px);
   background-size: cover;
   animation: rotate 8s linear infinite;
   left: -65px;
@@ -162,7 +162,7 @@
   border-radius: 190px;
   opacity: 0.30000001192092896;
   background: #a6a9b2;
-  filter: blur(100px);
+  filter: blur(200px);
   background-size: cover;
   animation: rotate 8s linear infinite;
   right: 23px;
