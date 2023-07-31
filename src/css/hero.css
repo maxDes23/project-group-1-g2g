@@ -5,14 +5,14 @@
 */
 
 .hero-section {
-  padding: 40px 0;
   position: relative;
   font-family: DM Sans, sans-serif;
+  margin-bottom: 80px;
 }
 
 @media only screen and (min-width: 768px) {
   .hero-section {
-    padding: 64px 0 100px 0;
+    margin-bottom: 164px;
   }
 }
 
