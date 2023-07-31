@@ -5,6 +5,7 @@ ul, li {
     
     :root {
         --color-white: #F6F5EF;
+        --active-color: #BEC7C2;
     }
     .container {
          background: #11131F;
@@ -35,7 +36,6 @@ ul, li {
         .footer-box{
             padding-bottom: 132px;
             margin: 0;
-            position: relative;
         }
     }
 /*LOGO-TEXT*/
@@ -111,7 +111,7 @@ ul, li {
         gap:8px;
         align-content: center;
         justify-content: flex-start;
-        align-items: flex-end;
+        align-items: center;
         padding: 0;
     }
 
@@ -127,6 +127,11 @@ ul, li {
     line-height: 1.18;
     letter-spacing: 0.42px;
     text-transform: uppercase;
+    }
+    .footer-pages:hover,
+    .footer-pages:focus,
+    .footer-pages:active {
+        opacity: 0.5;
     }
 
     @media screen and (min-width:768px) {
@@ -183,18 +188,25 @@ ul, li {
      }
      @media screen and (min-width:1280px) {}
 /*LIST-PAGES*/
+    .footer-navigation {
+        margin: 40px 0 40px 0;
+        padding: 0;
+    }
+    @media screen and (min-width:768px) {
+        .footer-navigation {
+            margin: 0 auto;
+            padding: 0;
+        }
+    
+    }
     .footer-list-navigations {
         display: flex;
         gap: 14px;
-        margin: 40px 0 40px 0;
-        padding: 0;
         flex-direction: column;
         justify-content: flex-start;
     }
     @media screen and (min-width:768px) {
         .footer-list-navigations {
-            margin: 0;
-            padding: 0;
             gap: 24px;
         }
     
@@ -280,9 +292,17 @@ ul, li {
 
     }
 /*NETWORKS-LOGO*/
-    .networks-logo {
-        stroke:rgba(246, 245, 239, 0.50);
-    }
+.networks-logo {
+    fill:white;
+border-radius: 6px;
+border: 1px solid rgba(246, 245, 239, 0.50);
+}
+.networks-logo:hover,
+.networks-logo:focus,
+.networks-logo:active {
+    border-color:var(--active-color);
+    fill:var(--active-color);
+}
     @media screen and (min-width:768px) {
 
     }
