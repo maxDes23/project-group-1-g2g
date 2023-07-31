@@ -1,7 +1,4 @@
-/* .section-yahtsblock {
-  display: flex;
-  position: relative;
-} */
+
 @media only screen and (min-width: 1280px) {
   .element-looper {
     position: absolute;
@@ -69,6 +66,7 @@
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: -1.62px;
+  z-index: 0;
 }
 
 @media only screen and (min-width: 768px) {
@@ -128,10 +126,11 @@
   border-radius: 420px;
   opacity: 0.6000000238418579;
   background: #93abae;
-  filter: blur(200px);
+  filter: blur(100px);
   background-size: cover;
   animation: rotate 8s linear infinite;
-  left: -65px;
+  left: -74px;
+  top: -97px;
 }
 
 @media screen and (min-width: 768px) {
@@ -140,6 +139,8 @@
     height: 399px;
     transform: rotate(-44.094deg);
     border-radius: 399px;
+    left: 23px;
+    top: -95px;
   }
 }
 
@@ -149,7 +150,8 @@
     height: 414px;
     transform: rotate(-45.044deg);
     border-radius: 414px;
-    left: 56px;
+    left: 259px;
+    top: -66px;
   }
 }
 
@@ -162,10 +164,11 @@
   border-radius: 190px;
   opacity: 0.30000001192092896;
   background: #a6a9b2;
-  filter: blur(200px);
+  filter: blur(100px);
   background-size: cover;
   animation: rotate 8s linear infinite;
-  right: 23px;
+  right: -32px;
+    top: -32px;
 }
 
 @media screen and (min-width: 768px) {
@@ -175,6 +178,8 @@
     transform: rotate(-44.094deg);
     border-radius: 304px;
     right: 100px;
+    left: 450px;
+    top: -70px;
   }
 }
 
@@ -184,7 +189,8 @@
     height: 316px;
     transform: rotate(-45.074deg);
     border-radius: 316px;
-    right: 420px;
+    left: 725px;
+    top: -52px;
   }
 }
 
