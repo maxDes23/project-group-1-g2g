@@ -111,7 +111,7 @@ ul, li {
         gap:8px;
         align-content: center;
         justify-content: flex-start;
-        align-items: center;
+        align-items: flex-end;
         padding: 0;
     }
 
@@ -173,8 +173,8 @@ ul, li {
 }
 /*YACHT-LOGO*/
     .yacht-logo {
-        fill: none;
-        stroke: rgba(246, 245, 239, 0.50);
+        fill: rgba(246, 245, 239, 0.50);
+        stroke: #000;
      }
      @media screen and (min-width:768px) {
         .yacht-logo { width: 23px;
