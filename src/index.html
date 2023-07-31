@@ -10,10 +10,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
- <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
-/>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
 
     <!-- Custom styles -->
     <link rel="stylesheet" href="./css/styles.css" />
@@ -35,32 +35,22 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
-    <script
-      defer
-      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-      crossorigin="anonymous"
-    ></script>
+    <script>
+      (() => {
+        const refs = {
+          openModalBtn: document.querySelector('[data-modal-open]'),
+          closeModalBtn: document.querySelector('[data-modal-close]'),
+          modal: document.querySelector('[data-modal]'),
+        };
 
+        refs.openModalBtn.addEventListener('click', toggleModal);
+        refs.closeModalBtn.addEventListener('click', toggleModal);
 
-
-<script>
-  (() => {
-    const refs = {
-      openModalBtn: document.querySelector("[data-modal-open]"),
-      closeModalBtn: document.querySelector("[data-modal-close]"),
-      modal: document.querySelector("[data-modal]"),
-    };
-  
-    refs.openModalBtn.addEventListener("click", toggleModal);
-    refs.closeModalBtn.addEventListener("click", toggleModal);
-  
-    function toggleModal() {
-      refs.modal.classList.toggle("is-hidden");
-    }
-  })();
-</script>
-
+        function toggleModal() {
+          refs.modal.classList.toggle('is-hidden');
+        }
+      })();
+    </script>
 
     <script>
       (() => {
