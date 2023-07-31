@@ -112,7 +112,7 @@
   position: absolute;
   width: 200px;
   height: 200px;
-  right: 0;
+  right: -100px;
   top: 4700px;
   transform: rotate(-44.916deg);
   flex-shrink: 0;
@@ -121,6 +121,7 @@
   background: #91afba;
   filter: blur(100px);
   background-size: cover;
+
   /* animation: rotate 8s linear infinite; */
 }
 
@@ -243,6 +244,7 @@
     height: 300px;
     border-radius: 413px;
     top: 5370px;
+    right: -100px;
   }
   .rent-modal-lite {
     width: 265px;
