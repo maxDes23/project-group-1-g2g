@@ -1,5 +1,8 @@
 /* Services section styles */
-
+.services.container {
+    position: relative;
+    overflow: hidden;
+}
 @media only screen and (min-width: 1280px) {
     .services-list {
         display: flex;
@@ -7,7 +10,6 @@
         gap: 64px;
     }
 }
-
 .services-item {
     position: relative;
     width: 335px;
@@ -15,86 +17,71 @@
     border-radius: 40px;
     overflow: hidden;
 }
-
 @media only screen and (max-width: 1279px) {
     .services-item {
         margin: 0 auto;
     }
 }
-
 @media only screen and (min-width: 768px) {
     .services-item.first {
         width: 704px;
         height: 632px;
     }
-
     .services-item.second {
         width: 400px;
         height: 389px;
     }
-
     .services-item.third {
         width: 380px;
         height: 352px;
     }
 }
-
 @media only screen and (min-width: 1280px) {
     .services-item.first {
         width: 712px;
         height: 632px;
     }
-
     .services-item.second {
         width: 440px;
         height: 428px;
     }
-
     .services-item.third {
         width: 436px;
         height: 352px;
     }
 }
-
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
     .services-item.second {
         position: relative;
         left: 150px;
     }
-
     .services-item.third {
         position: relative;
         right: 130px;
     }
 }
-
 @media only screen and (min-width: 1280px) {
     .services-item.second {
         top: 204px;
     }
-
     .services-item.third {
         left: 340px;
     }
 }
-
 @media only screen and (max-width: 767px) {
     .services-item:not(:last-child) {
         margin-bottom: 24px;
     }
 }
-
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
     .services-item:not(:last-child) {
         margin-bottom: 32px;
     }
 }
-
 .services-image {
     height: 100%;
     object-fit: cover;
 }
-
 .services-text {
     display: inline-block;
     padding: 14px 28px;
@@ -106,16 +93,43 @@
     line-height: 1.1;
     letter-spacing: -0.04em;
 }
-
 .services-item>.services-text {
     position: absolute;
     bottom: 24px;
     left: 24px;
 }
-
 @media only screen and (min-width: 768px) {
     .services-item>.services-text {
         bottom: 32px;
         left: 32px;
     }
+}
+.services-section-light {
+    position: absolute;
+    top: 310px;
+    left: -200px;
+    width: 323px;
+    height: 323px;
+    transform: rotate(-45deg);
+    flex-shrink: 0;
+    border-radius: 323px;
+    opacity: 0.6;
+    background: var(--light-green);
+    filter: blur(100px);
+    
+}
+@media only screen and (min-width: 768px) {
+.services-section-light {
+    width: 414px;
+    height: 414px;
+    border-radius: 414px;
+    top: 575px;
+    left: -220px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+.services-section-light {
+    top: 230px;
+    left: -210px;
+  }
 }

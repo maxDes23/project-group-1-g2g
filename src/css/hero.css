@@ -5,14 +5,14 @@
 */
 
 .hero-section {
-  padding: 40px 0;
   position: relative;
   font-family: DM Sans, sans-serif;
+  margin-bottom: 80px;
 }
 
 @media only screen and (min-width: 768px) {
   .hero-section {
-    padding: 64px 0 100px 0;
+    margin-bottom: 164px;
   }
 }
 
@@ -141,6 +141,8 @@
 
   border-radius: 60px;
   background-color: var(--light-green);
+  transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn-start:hover,
@@ -162,6 +164,8 @@
   border: 1px solid var(--white);
 
   padding: 14px 28px;
+  transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn-explore:hover,
@@ -305,6 +309,8 @@
   opacity: 0.30000001192092896;
   background: #a6a9b2;
   filter: blur(100px);
+  background-size: cover;
+  animation: rotate 8s linear infinite;
 }
 
 @keyframes rotate {
@@ -395,7 +401,15 @@
   text-transform: uppercase;
 }
 
-.hero-yaht {
+@media only screen and (min-width: 1280px) {
+  .hero-photo-yahtas {
+    transition: transform 1s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .hero-photo-yahtas:hover,
+  .hero-photo-yahtas:focus {
+    transform: scale(1.5);
+  }
 }
 
 .hero-price-container {
@@ -478,5 +492,22 @@
 
     left: 339px;
     top: 32px;
+    transition: transform 1s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .hero-owners-photo:hover,
+  .hero-owners-photo:focus {
+    transform: scale(1.25);
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .hero-owners-photo {
+    transition: transform 1s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .hero-owners-photo:hover,
+  .hero-owners-photo:focus {
+    transform: scale(1.25);
   }
 }

@@ -1,6 +1,5 @@
 .rent-blok {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  margin-bottom: 80px;
 }
 
 .title-rent {
@@ -110,12 +109,11 @@
 }
 
 .rent-lite {
-  display: flex;
   position: absolute;
-  left: 300px;
-  top: 4800px;
-  width: 283px;
-  height: 283px;
+  width: 200px;
+  height: 200px;
+  right: -100px;
+  top: 4700px;
   transform: rotate(-44.916deg);
   flex-shrink: 0;
   border-radius: 283px;
@@ -123,7 +121,8 @@
   background: #91afba;
   filter: blur(100px);
   background-size: cover;
-  animation: rotate 8s linear infinite;
+
+  /* animation: rotate 8s linear infinite; */
 }
 
 .rent-modal-lite {
@@ -183,8 +182,7 @@
 
 @media screen and (min-width: 768px) {
   .rent-blok {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    margin-bottom: 100px;
   }
   .rent-container {
     display: flex;
@@ -242,11 +240,11 @@
     height: 24px;
   }
   .rent-lite {
-    width: 413px;
-    height: 413px;
-    top: 5450px;
+    width: 300px;
+    height: 300px;
     border-radius: 413px;
-    left: 650px;
+    top: 5370px;
+    right: -100px;
   }
   .rent-modal-lite {
     width: 265px;
@@ -261,8 +259,7 @@
 
 @media screen and (min-width: 1280px) {
   .rent-blok {
-    padding-top: 164px;
-    padding-bottom: 164px;
+    margin-bottom: 164px;
   }
   .rent-container {
     gap: 188px;
@@ -290,10 +287,6 @@
     margin-bottom: 0;
   }
   .rent-lite {
-    width: 414px;
-    height: 414px;
-    top: 4400px;
-    left: 950px;
-    border-radius: 414px;
+    top: 4370px;
   }
 }
