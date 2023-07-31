@@ -5,7 +5,6 @@
 */
 
 .hero-section {
-  
   font-family: DM Sans, sans-serif;
   margin-bottom: 80px;
 }
@@ -41,6 +40,12 @@
 @media only screen and (min-width: 768px) {
   .hero-content-container {
     margin-left: 0;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .hero-content-container {
+    padding-top: 60px;
   }
 }
 
@@ -268,8 +273,6 @@
   }
 }
 
-
-
 .hero-light-one {
   position: absolute;
   top: 330px;
@@ -280,28 +283,28 @@
   flex-shrink: 0;
   border-radius: 279px;
   opacity: 0.6;
-  background: #91AFBA;
+  background: #91afba;
   filter: blur(100px);
   background-size: cover;
   animation: rotate 8s linear infinite;
 }
- @media only screen and (min-width: 768px) {
-    .hero-light-one {
-      top: 440px;
-      left: -420px;
-      width: 414px;
-      height: 414px;
-      border-radius: 414px;
-   }
- }
- @media only screen and (min-width: 1280px) {
-    .hero-light-one {
-      top: 162px;
-      left: -240px;
-   }
- }
- 
- @media only screen and (max-width: 767px) {
+@media only screen and (min-width: 768px) {
+  .hero-light-one {
+    top: 440px;
+    left: -420px;
+    width: 414px;
+    height: 414px;
+    border-radius: 414px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .hero-light-one {
+    top: 162px;
+    left: -240px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
   .hero-light-two {
     display: none;
   }
@@ -417,7 +420,7 @@
   text-transform: uppercase;
 }
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 768px) {
   .hero-photo-yahtas {
     transition: transform 1s cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -517,7 +520,7 @@
   }
 }
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 768px) {
   .hero-owners-photo {
     transition: transform 1s cubic-bezier(0.4, 0, 0.2, 1);
   }
