@@ -1,6 +1,7 @@
 /* Services section styles */
 .services.container {
     position: relative;
+    overflow: hidden;
 }
 @media only screen and (min-width: 1280px) {
     .services-list {
@@ -115,6 +116,7 @@
     opacity: 0.6;
     background: var(--light-green);
     filter: blur(100px);
+    
 }
 @media only screen and (min-width: 768px) {
 .services-section-light {
