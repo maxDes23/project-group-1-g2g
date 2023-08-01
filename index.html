@@ -1078,7 +1078,7 @@
     link.addEventListener('click', (event) => {
       event.preventDefault(); // Запобігти стандартній поведінці посилання
 
-      const targetSectionId = link.getAttribute('href'); // Отримати ідентифікатор секції
+      const targetSectionId = link.getAttribute('id'); // Отримати ідентифікатор секції
       const targetSection = document.querySelector(targetSectionId); // Знайти секцію
 
       if (targetSection) {
