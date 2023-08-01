@@ -19,7 +19,10 @@ body {
 }
 
 main {
+    position: relative;
     flex-grow: 1;
+    overflow-x: hidden;
+    max-width: 100vw;
 }
 
 .review-h {
@@ -107,7 +110,7 @@ main {
 
 .review-text-blk {
     box-sizing: border-box;
-    width: 100%;
+    position: relative;
 }
 
 
