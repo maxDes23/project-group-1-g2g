@@ -108,19 +108,22 @@
   gap: 24px;
 }
 
-.rent-lite {
+.rent-light {
   position: absolute;
-  width: 200px;
-  height: 200px;
-  right: -100px;
-  top: 4700px;
+  width: 283px;
+  height: 283px;
+  top: -348px;
+  left: 233px;
   transform: rotate(-44.916deg);
-  flex-shrink: 0;
-  border-radius: 283px;
-  opacity: 0.6;
-  background: #91afba;
-  filter: blur(100px);
-  background-size: cover;
+  width: 414px;
+height: 414px;
+transform: rotate(-45.074deg);
+flex-shrink: 0;
+border-radius: 414px;
+opacity: 0.6;
+background: #91AFBA;
+filter: blur(100px);
+  
 
   /* animation: rotate 8s linear infinite; */
 }
@@ -189,6 +192,7 @@
     gap: 69px;
   }
   .title-img-cont {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -239,12 +243,12 @@
     width: 24px;
     height: 24px;
   }
-  .rent-lite {
-    width: 300px;
-    height: 300px;
-    border-radius: 413px;
-    top: 5370px;
-    right: -100px;
+  .rent-light {
+    width: 413px;
+    height: 413px;
+    top: -386px;
+    left: 600px;
+  
   }
   .rent-modal-lite {
     width: 265px;
@@ -286,7 +290,12 @@
     height: 58px;
     margin-bottom: 0;
   }
-  .rent-lite {
-    top: 4370px;
+
+  .rent-light {
+    width: 414px;
+    height: 414px;
+    top: -432px;
+    left: 1036px;
   }
+
 }
