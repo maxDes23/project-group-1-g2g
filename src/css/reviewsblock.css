@@ -6,6 +6,7 @@ img {
 }
 
 body {
+    position: relative;
     font-family: var(--prim-fnt);
     color: var(--dark-color);
     background: var(--dark-blue, #11131F);
@@ -23,6 +24,7 @@ main {
     position: relative;
     flex-grow: 1;
     max-width: 100vw;
+    overflow-x: hidden;
 }
 
 .review-h {
