@@ -115,6 +115,25 @@ main {
     position: relative;
 }
 
+.indicator {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 14px;
+    ;
+}
+
+.point {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #1F212D;
+}
+
+.point.active {
+    background-color: #93ABAE;
+}
+
 
 @media screen and (max-width: 767px) {
     .review-tablet, .review-desctop {
@@ -130,17 +149,20 @@ main {
         margin-bottom: 24px;
     }
 
-    .card2 {
-        display: none;
-    }
-
     .back-div {
         margin-bottom: 20px;
     }
 
     .review-card-list {
-        margin-bottom: 43px;
+        margin-bottom: 14px;
     }
+
+    .indicator {
+        margin-bottom: 16px;
+
+    }
+
+
 
 }
 
@@ -188,7 +210,11 @@ main {
         flex-wrap: wrap;
         justify-content: center;
         gap: 16px;
-        margin-bottom: 45px;
+        margin-bottom: 32px;
+    }
+
+    .indicator {
+        margin-bottom: 0px;
     }
 
     .review-card-item {
@@ -236,6 +262,10 @@ main {
         .rev-text {
             font-size: 16px;
             letter-spacing: -0.32px;
+        }
+
+        .indicator {
+            display: none;
         }
     }
 
