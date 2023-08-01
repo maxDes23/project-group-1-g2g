@@ -294,8 +294,8 @@ ul, li {
 /*NETWORKS-LOGO*/
 .networks-logo {
     fill:white;
-border-radius: 6px;
-border: 1px solid rgba(246, 245, 239, 0.50);
+    border-radius: 6px;
+    border: 1px solid rgba(246, 245, 239, 0.50);
 }
 .networks-logo:hover,
 .networks-logo:focus,
@@ -306,6 +306,7 @@ border: 1px solid rgba(246, 245, 239, 0.50);
     @media screen and (min-width:768px) {
 
     }
+
 /*LIGHT*/
 .lights-container {
     display: flex;
@@ -315,11 +316,11 @@ border: 1px solid rgba(246, 245, 239, 0.50);
 .light1 {
     position: absolute;
     width: 420px;
-height: 420px;
-bottom: -311px;
-left: 0px;
-transform: rotate(-45.408deg);
-flex-shrink: 0;
+    height: 420px;
+    top: -68px;
+    left: 9px;
+    transform: rotate(-45.408deg);
+    flex-shrink: 0;
     border-radius: 420px;
     opacity: 0.6000000238418579;
     background:  #93ABAE;
@@ -329,32 +330,15 @@ flex-shrink: 0;
 
 @media screen and (min-width:768px){
     .light1 {
-        width: 419px;
-height: 419px;
-transform: rotate(-45.565deg);
-flex-shrink: 0;
-        border-radius: 419px;
-        opacity: 0.6000000238418579;
-        background:  #93ABAE;
-        filter: blur(100px);
-        top: -54px;
-        left: 206px;
-        animation: rotate 8s linear infinite;
+        top: -17px;
+        left: 220px;
+
       }
   }
 @media screen and (min-width:1280px) {
     .light1 {
-        width: 415px;
-height: 415px;
-transform: rotate(-45.044deg);
-flex-shrink: 0;
-        border-radius: 415px;
-        opacity: 0.6000000238418579;
-        background:  #93ABAE;
-        filter: blur(100px);
-        left: 188px;
-        top: -21px;
-        animation: rotate 8s linear infinite;
+        left: 255px;
+        top: -25px;
       }
   }
 
@@ -362,15 +346,15 @@ flex-shrink: 0;
         .light2 {
         position: absolute;
         width: 317px;
-height: 317px;
-transform: rotate(-45.044deg);
-flex-shrink: 0;
+        height: 317px;
+        transform: rotate(-45.044deg);
+        flex-shrink: 0;
         border-radius: 317px;
         opacity: 0.30000001192092896;
         background: #A6A9B2;
         filter: blur(100px);
-        right: 213px;
-        top: -35px;
+        right: 199px;
+        top: -3px;
         animation: rotate 8s linear infinite;
           }
       }
