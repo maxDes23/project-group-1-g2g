@@ -1,21 +1,10 @@
-/*Reset*/
-ul, li {
-    list-style: none;
-    }
-    
-    :root {
-        --color-white: #F6F5EF;
-        --active-color: #BEC7C2;
-    }
-    .container {
-         background: #11131F;
-    }
-
 /*CONTAINER-FOOTER*/
 .footer {
     overflow: hidden;
 }
-
+.container-footer {
+    position: relative;
+}
 /*FOOTER-BOX*/
 .footer-box {
     padding-top: 40px;
@@ -40,7 +29,7 @@ ul, li {
     }
 /*LOGO-TEXT*/
     .footer-logo-text {
-    color: var(--color-white);
+    color: #F6F5EF;
     font-family: 'DM Sans';
     font-size: 14px;
     font-style: normal;
@@ -53,7 +42,7 @@ ul, li {
     } 
     @media screen and (min-width:768px) {
         .footer-logo-text {
-            color: var(--white, #F6F5EF);
+            color: #F6F5EF;
             font-family: DM Sans;
             font-size: 18px;
             font-style: normal;
@@ -65,7 +54,7 @@ ul, li {
 }
 @media screen and (min-width:1280px) {
     .footer-logo-text {
-        color: var(--color-white);
+        color: #F6F5EF;
         font-family: 'DM Sans';
         font-size: 18px;
         font-style: normal;
@@ -77,7 +66,7 @@ ul, li {
     }
 /*SOCIAL-TEXT*/
     .footer-social-text {
-        color: var(--color-white);
+        color: #F6F5EF;
         font-family: 'DM Sans';
         font-size: 14px;
         font-style: normal;
@@ -88,7 +77,7 @@ ul, li {
 
 @media screen and (min-width:768px) {
     .footer-social-text {
-        color: var(--color-white);
+        color: #F6F5EF;
         font-family: 'DM Sans';
         font-size: 14px;
         font-style: normal;
@@ -119,7 +108,7 @@ ul, li {
     }
 /*FOOTER-PAGES*/
     .footer-pages {
-    color: var(--color-white);
+    color: #F6F5EF;
     font-family: 'DM Sans';
     font-size: 14px;
     font-style: normal;
@@ -281,6 +270,7 @@ ul, li {
     @media screen and (min-width:1280px) {
 .footer-policy-list{
     margin: 0;
+    gap: 32px;
 }
     }
 /*POLICY-TEXT*/
@@ -300,61 +290,65 @@ ul, li {
 .networks-logo:hover,
 .networks-logo:focus,
 .networks-logo:active {
-    border-color:var(--active-color);
-    fill:var(--active-color);
+    border-color:#BEC7C2;
+    fill:#BEC7C2;
 }
     @media screen and (min-width:768px) {
 
     }
 
 /*LIGHT*/
-.lights-container {
-    display: flex;
-    position: relative;
-
-}
-.light1 {
+.light1:after {
     position: absolute;
+    content: "";
     width: 420px;
     height: 420px;
-    top: -68px;
-    left: 9px;
+    top:259px;
+    left:6px;
     transform: rotate(-45.408deg);
     flex-shrink: 0;
     border-radius: 420px;
     opacity: 0.6000000238418579;
-    background:  #93ABAE;
+    background: #93ABAE;
     filter: blur(100px);
     animation: rotate 8s linear infinite;
-  }
+}
 
 @media screen and (min-width:768px){
-    .light1 {
-        top: -17px;
+    .light1:after {
+        width: 419px;
+        height: 419px;
+        border-radius: 419px;
+        transform: rotate(-45.565deg);
+        top: 264px;
         left: 220px;
-
       }
   }
 @media screen and (min-width:1280px) {
-    .light1 {
-        left: 255px;
-        top: -25px;
+    .light1:after {
+        width: 415px;
+        height: 415px;
+        border-radius: 415px;
+        transform: rotate(-0.089deg);
+        left: 225px;
+        top: 257px;
       }
   }
 
     @media screen and (min-width:1280px) {
-        .light2 {
+    .light2:after {
         position: absolute;
+        content: "";
         width: 317px;
         height: 317px;
-        transform: rotate(-45.044deg);
+        transform: rotate(-0.089deg);
         flex-shrink: 0;
         border-radius: 317px;
         opacity: 0.30000001192092896;
         background: #A6A9B2;
         filter: blur(100px);
-        right: 199px;
-        top: -3px;
+        right: 200px;
+        top: 285px;
         animation: rotate 8s linear infinite;
           }
       }
