@@ -16,6 +16,9 @@
     position: relative;
     
 }
+.services-item {
+    z-index: 10;
+}
 @media only screen and (min-width: 1280px) {
     .services-list {
         display: flex;
