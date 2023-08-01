@@ -13,7 +13,8 @@ body {
     font-style: normal;
     color: rgba(246, 245, 239, 0.50);
     min-height: 100vh;
-    min-width: 100vw;
+    max-width: 100vw;
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
 }
@@ -21,7 +22,6 @@ body {
 main {
     position: relative;
     flex-grow: 1;
-    overflow-x: hidden;
     max-width: 100vw;
 }
 
