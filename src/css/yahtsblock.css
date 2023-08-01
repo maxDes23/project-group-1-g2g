@@ -127,12 +127,12 @@
   flex-shrink: 0;
   border-radius: 420px;
   opacity: 0.6000000238418579;
-  background: #93abae;
+  background: #91AFBA;
   filter: blur(100px);
   background-size: cover;
   animation: rotate 8s linear infinite;
   left: -74px;
-  top: -97px;
+  top: -44px;
 }
 
 @media screen and (min-width: 768px) {
@@ -165,7 +165,7 @@
   flex-shrink: 0;
   border-radius: 190px;
   opacity: 0.30000001192092896;
-  background: #a6a9b2;
+  background: #A6A9B2;
   filter: blur(100px);
   background-size: cover;
   animation: rotate 8s linear infinite;
