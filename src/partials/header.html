@@ -16,7 +16,7 @@
           <a class="header-menu-link link" href="#about">About</a>
         </li>
         <li>
-          <a class="header-menu-link link" href="#yahtslblock">Yachts</a>
+          <a class="header-menu-link link" href="#yahtsblock">Yachts</a>
         </li>
         <li>
           <a class="header-menu-link link" href="#review">Reviews</a>
@@ -24,44 +24,51 @@
       </ul>
     </nav>
 
-    <button type="button" class="header-mobil-menu-open" data-menu-open>
-      <svg width="24" height="24" class="mobile-svg">
+    <button
+      class="menu-toggle js-open-menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
+      <svg class="menu-toggle-icon" width="24" height="24">
         <use href="./img/icons.svg#burger"></use>
       </svg>
     </button>
   </div>
 
-  <!-- Mobil menu -->
-  <div class="header-mobil-menu is-open" data-menu>
-    <div class="header-mobil-container">
-      <ul class="header-mobil-list list">
-        <li class="header-mobil-item">
-          <svg class="yacht-logo" width="18" height="18">
-            <use href="./img/yacht.svg#yacht-logo"></use>
-          </svg>
-        </li>
-        <li class="header-mobil-item">
-          <p class="header-logo">yacht Adventures</p>
-        </li>
-      </ul>
-      <button type="button" class="mobil-menu_close-btn" data-menu-close>
-        <svg width="24" height="24" class="mobile-close">
-          <use href="./img/icons.svg#close-mobil"></use>
+  <!-- Mobile menu -->
+
+  <div class="header-mobil-menu js-menu-container" id="mobile-menu">
+    <ul class="header-mobil-list list">
+      <li class="header-mobil-item">
+        <svg class="yacht-logo" width="18" height="18">
+          <use href="./img/yacht.svg#yacht-logo"></use>
         </svg>
-      </button>
-      <div class="header-mobil-bg"></div>
-      <ul class="list header-mobil-bottom">
-        <li>
-          <a class="link header-mobil-font" href="#about">About</a>
-        </li>
-        <li>
-          <a class="link header-mobil-font" href="#yahtslblock">Yachts</a>
-        </li>
-        <li>
-          <a class="link header-mobil-font" href="#review">Reviews</a>
-        </li>
-      </ul>
-      <div class="light"></div>
-    </div>
+      </li>
+      <li class="header-mobil-item">
+        <p class="header-logo">yacht Adventures</p>
+      </li>
+    </ul>
+
+    <button type="button" class="menu-toggle js-close-menu">
+      <svg width="24" height="24" class="mobile-close">
+        <use href="./img/icons.svg#close-mobil"></use>
+      </svg>
+    </button>
+    <div class="header-mobil-bg"></div>
+    <ul class="list header-mobil-bottom">
+      <li>
+        <a class="link header-mobil-font" href="#about">About</a>
+      </li>
+      <li>
+        <a class="link header-mobil-font" href="#yahtsblock">Yachts</a>
+      </li>
+      <li>
+        <a class="link header-mobil-font" href="#review">Reviews</a>
+      </li>
+    </ul>
+    <div class="light-1"></div>
+    <div class="light-2"></div>
   </div>
 </header>
+
+<script defer src="./js/mobile-menu.js"></script>
