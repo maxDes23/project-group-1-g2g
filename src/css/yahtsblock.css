@@ -1,0 +1,429 @@
+
+@media only screen and (min-width: 1280px) {
+  .element-looper {
+    position: absolute;
+    width: 100%;
+    height: 1928px;
+
+    background-image: linear-gradient(rgba(17, 19, 31, 0.7),
+        rgba(17, 19, 31, 0.7)),
+      url(../img/LooperGroup.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    stroke-width: 1.458px;
+    stroke: #f6f5ef;
+    opacity: 0.5789473652839661;
+
+    z-index: 0;
+  }
+}
+
+.yahtsblock_container {
+  padding-bottom: 80px;
+}
+
+@media only screen and (min-width: 768px) {
+  .yahtsblock_container {
+    padding-bottom: 100px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .yahtsblock_container {
+    padding-bottom: 164px;
+  }
+}
+
+.yacht-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 auto;
+  gap: 40px;
+  padding-bottom: 80px;
+}
+
+@media only screen and (min-width: 768px) {
+  .yacht-title-container {
+    gap: 64px;
+    padding-bottom: 100px;
+    padding-left: 64px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .yacht-title-container {
+    padding-bottom: 164px;
+    padding-left: 199px;
+  }
+}
+
+.yahtsblock_title {
+  font-family: DM Sans;
+  color: var(--white);
+  max-width: 310px;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -1.62px;
+  z-index: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .yahtsblock_title {
+    font-size: 70px;
+    letter-spacing: -3.15px;
+    max-width: 641px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .yahtsblock_title {
+    font-size: 100px;
+    letter-spacing: -4.5px;
+    max-width: 882px;
+  }
+}
+
+/**
+    |============================
+    | Rent Button styles
+    |============================
+  */
+
+.anchor-btn {
+  font-family: DM Sans;
+  color: var(--white);
+  background-color: var(--dark-blue);
+  border: 1px solid #f6f5ef;
+  border-radius: 60px;
+  display: flex;
+  padding: 14px 28px;
+  align-items: flex-start;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.81px;
+  z-index: 0;
+  background: transparent;
+}
+
+/**
+  |============================
+  | Shadow styles
+  |============================
+*/
+
+.circle-container {
+  display: flex;
+  position: relative;
+}
+
+.circle1 {
+  position: absolute;
+  width: 255px;
+  height: 255px;
+  transform: rotate(-44.916deg);
+  flex-shrink: 0;
+  border-radius: 420px;
+  opacity: 0.6000000238418579;
+  background: #91AFBA;
+  filter: blur(100px);
+  background-size: cover;
+  animation: rotate 8s linear infinite;
+  left: -74px;
+  top: -44px;
+}
+
+@media screen and (min-width: 768px) {
+  .circle1 {
+    width: 399px;
+    height: 399px;
+    transform: rotate(-44.094deg);
+    border-radius: 399px;
+    left: 23px;
+    top: -95px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .circle1 {
+    width: 414px;
+    height: 414px;
+    transform: rotate(-45.044deg);
+    border-radius: 414px;
+    left: 259px;
+    top: -66px;
+  }
+}
+
+.circle2 {
+  position: absolute;
+  width: 195px;
+  height: 195px;
+  transform: rotate(-44.916deg);
+  flex-shrink: 0;
+  border-radius: 190px;
+  opacity: 0.30000001192092896;
+  background: #A6A9B2;
+  filter: blur(100px);
+  background-size: cover;
+  animation: rotate 8s linear infinite;
+  right: -32px;
+    top: -32px;
+}
+
+@media screen and (min-width: 768px) {
+  .circle2 {
+    width: 304px;
+    height: 304px;
+    transform: rotate(-44.094deg);
+    border-radius: 304px;
+    right: 100px;
+    left: 450px;
+    top: -70px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .circle2 {
+    width: 316px;
+    height: 316px;
+    transform: rotate(-45.074deg);
+    border-radius: 316px;
+    left: 725px;
+    top: -52px;
+  }
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/**
+  |============================
+  | Yahts cards
+  |============================
+*/
+
+@media only screen and (min-width: 1280px) {
+  .yahts-cards {
+    margin: 0 11px;
+    position: relative;
+  }
+}
+
+.yahts-cards-list {
+  margin-bottom: 24px
+}
+
+@media only screen and (min-width: 768px) {
+  .yahts-cards-list {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 32px
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .yahts-cards-list {
+    margin-bottom: 0px
+  }
+}
+
+.yahts-cards-item {
+  width: 335px;
+  height: 469px;
+  padding: 18px 18px 24px 18px;
+  border-radius: 24px;
+  background: #1f212d;
+}
+
+@media only screen and (min-width: 768px) {
+  .yahts-cards-item {
+    width: 354px;
+    height: 508px;
+    padding: 16px 16px 32px 16px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .yahts-cards-img {
+    width: 312px;
+    height: 268px;
+  }
+}
+
+.yahts-cards-sub {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 6px;
+}
+
+@media only screen and (min-width: 768px) {
+  .yahts-cards-sub {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 16px;
+  }
+}
+
+.yahts-cards-subtitle {
+  color: var(--white);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19.2px;
+  letter-spacing: -0.045em;
+  text-transform: uppercase;
+}
+
+.yahts-cards-text {
+  color: var(--white);
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14.16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+.yahts-specifications {
+  display: flex;
+  justify-content: flex-start;
+  gap: 32px;
+  padding-left: 6px;
+}
+
+@media only screen and (min-width: 768px) {
+  .yahts-specifications {
+    padding-left: 16px;
+  }
+}
+
+.yahts-left-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.yahts-left-item {
+  color: var(--white);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16.52px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.yahts-right-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.yahts-right-item {
+  color: var(--white);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16.52px;
+  letter-spacing: 0.03em;
+}
+
+@media only screen and (max-width: 767px) {
+  .cards-2 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .cards-3 {
+    display: none;
+  }
+}
+
+.cards-4 {
+  display: none;
+}
+
+/* Button slayder */
+
+.slayder-btn {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .slayder-btn {
+    gap: 14px;
+  }
+}
+
+.yahts-left-btn {
+  display: flex;
+  padding: 14px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 60px;
+  border: 1px solid var(--white);
+  background: transparent;
+}
+
+@media only screen and (min-width: 768px) {
+  .yahts-left-btn {
+    padding: 14px 16px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .yahts-left-btn {
+    position: absolute;
+    left: -11px;
+    top: 236px;
+  }
+}
+
+.slayder-left-btn {
+  fill: var(--white);
+}
+
+.yahts-right-btn {
+  display: flex;
+  padding: 14px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 60px;
+  border: 1px solid var(--white);
+  background: transparent;
+}
+
+@media only screen and (min-width: 768px) {
+  .yahts-right-btn {
+    padding: 14px 16px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .yahts-right-btn {
+    position: absolute;
+    right: -11px;
+    top: 236px;
+  }
+}
+
+.slayder-right-btn {
+  fill: var(--white);
+}

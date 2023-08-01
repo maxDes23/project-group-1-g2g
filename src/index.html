@@ -10,12 +10,17 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
     <!-- Custom styles -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <load ="partials/header.html" />
-
+    <load ="partials/lights.html" />
     <main>
       <load ="partials/hero.html" />
       <load ="partials/aboutblock.html" />
@@ -25,6 +30,43 @@
       <load ="partials/reviewsblock.html" />
     </main>
 
+    <load ="partials/back2top.html" />
     <load ="partials/footer.html" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script>
+      (() => {
+        const refs = {
+          openModalBtn: document.querySelector('[data-modal-open]'),
+          closeModalBtn: document.querySelector('[data-modal-close]'),
+          modal: document.querySelector('[data-modal]'),
+        };
+
+        refs.openModalBtn.addEventListener('click', toggleModal);
+        refs.closeModalBtn.addEventListener('click', toggleModal);
+
+        function toggleModal() {
+          refs.modal.classList.toggle('is-hidden');
+        }
+      })();
+    </script>
+
+    <script>
+      (() => {
+        const refs = {
+          openMenuBtn: document.querySelector('[data-menu-open]'),
+          closeMenuBtn: document.querySelector('[data-menu-close]'),
+          menu: document.querySelector('[data-menu]'),
+        };
+
+        refs.openMenuBtn.addEventListener('click', toggleModal);
+        refs.closeMenuBtn.addEventListener('click', toggleModal);
+
+        function toggleModal() {
+          refs.menu.classList.toggle('is-open');
+        }
+      })();
+    </script>
   </body>
 </html>
