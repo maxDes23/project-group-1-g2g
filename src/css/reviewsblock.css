@@ -162,9 +162,13 @@ main {
 
     }
 
-
+    .arr-up-ico {
+        width: 44px;
+        height: 44px;
+    }
 
 }
+
 
 @media screen and (max-width: 1279px) {
     .card3 {
