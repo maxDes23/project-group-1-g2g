@@ -156,7 +156,7 @@
             </ul>
           </div>
           <div class="indicator">
-            <span class="point active"></span>
+            <span class="point"></span>
             <span class="point"></span>
             <span class="point"></span>
           </div>
@@ -167,14 +167,14 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script>
     var swiper = new Swiper(".mySwiper", {
-      spaceBetween: 50,
+      spaceBetween: 20,
       centeredSlides: true,
       autoplay: {
         delay: 5000,
         disableOnInteraction: false,
       },
       pagination: {
-        el: ".swiper-pagination",
+        el: ".indicator",
         clickable: true,
       }
     });
