@@ -18,19 +18,21 @@
   }
 }
 
-.yahtsblock_container {
+
+
+.section-yahtsblock {
   padding-bottom: 80px;
   position: relative;
 }
 
 @media only screen and (min-width: 768px) {
-  .yahtsblock_container {
+  .section-yahtsblock {
     padding-bottom: 100px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
-  .yahtsblock_container {
+  .section-yahtsblock {
     padding-bottom: 164px;
   }
 }
@@ -262,7 +264,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 6px;
+  margin: 24px 6px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -270,7 +272,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 32px 16px;
+    margin: 32px 16px;
   }
 }
 
