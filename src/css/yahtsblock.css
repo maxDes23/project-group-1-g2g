@@ -14,7 +14,7 @@
     stroke: #f6f5ef;
     opacity: 0.5789473652839661;
 
-    z-index: 0;
+    z-index: 1;
   }
 }
 
@@ -119,8 +119,6 @@
   |============================
 */
 
-
-
 .yahtsblock_container:after {
   position: absolute;
   width: 255px;
@@ -216,6 +214,7 @@
   .yahts-cards {
     margin: 0 11px;
     position: relative;
+    z-index: 1;
   }
 }
 
