@@ -9,7 +9,6 @@ body {
     position: relative;
     font-family: var(--prim-fnt);
     color: var(--dark-color);
-    background: white;
     background: var(--dark-blue, #11131F);
     text-decoration: none;
     font-style: normal;
@@ -46,7 +45,7 @@ main {
     line-height: 120%;
     letter-spacing: -1.08px;
     background: var(--linear-green, linear-gradient(107deg, #BEC7C2 0%, #A1B5BA 100%));
-    background-clip: text;
+    background-clip: content-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
