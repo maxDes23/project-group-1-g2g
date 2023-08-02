@@ -1,74 +1,73 @@
 <header class="header">
-  <div class="header-container container">
-    <ul class="header-list">
-      <li class="header-item">
-        <svg class="yacht-icon" width="18" height="18">
-          <use href="./img/yacht.svg#yacht-logo"></use>
-        </svg>
-      </li>
-      <li class="header-item">
-        <p class="header-logo">yacht Adventures</p>
-      </li>
-    </ul>
-    <nav class="header-nav">
-      <ul class="header-menu list">
-        <li>
-          <a class="header-menu-link link" href="#about">About</a>
+  <div class="container header-container">
+    <div class="header-box">
+      <ul class="header-list">
+        <li class="header-item">
+          <svg class="yacht-icon" width="18" height="18">
+            <use href="./img/yacht.svg#yacht-logo"></use>
+          </svg>
         </li>
-        <li>
-          <a class="header-menu-link link" href="#yahtsblock">Yachts</a>
-        </li>
-        <li>
-          <a class="header-menu-link link" href="#review">Reviews</a>
+        <li class="header-item">
+          <p class="header-logo">yacht Adventures</p>
         </li>
       </ul>
-    </nav>
+      <nav class="header-nav">
+        <ul class="header-menu list">
+          <li>
+            <a class="header-menu-link link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="header-menu-link link" href="#yahtsblock">Yachts</a>
+          </li>
+          <li>
+            <a class="header-menu-link link" href="#review">Reviews</a>
+          </li>
+        </ul>
+      </nav>
 
-    <button
-      class="menu-toggle js-open-menu"
-      aria-expanded="false"
-      aria-controls="mobile-menu"
-    >
-      <svg class="menu-toggle-icon" width="24" height="24">
-        <use href="./img/icons.svg#burger"></use>
-      </svg>
-    </button>
+      <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+        <svg class="menu-toggle-icon" width="24" height="24">
+          <use href="./img/icons.svg#burger"></use>
+        </svg>
+      </button>
+    </div>
   </div>
 
   <!-- Mobile menu -->
 
   <div class="header-mobil-menu js-menu-container" id="mobile-menu">
-    <ul class="header-mobil-list list">
-      <li class="header-mobil-item">
-        <svg class="yacht-logo" width="18" height="18">
-          <use href="./img/yacht.svg#yacht-logo"></use>
-        </svg>
-      </li>
-      <li class="header-mobil-item">
-        <p class="header-logo">yacht Adventures</p>
-      </li>
-    </ul>
+    <div class="header-mobile-container">
+      <ul class="header-mobil-list list">
+        <li class="header-mobil-item">
+          <svg class="yacht-logo" width="18" height="18">
+            <use href="./img/yacht.svg#yacht-logo"></use>
+          </svg>
+        </li>
+        <li class="header-mobil-item">
+          <p class="header-logo">yacht Adventures</p>
+        </li>
+        <li class="header-mobil-item">
+          <button type="button" class="menu-toggle js-close-menu">
+            <svg width="24" height="24" class="mobile-close">
+              <use href="./img/icons.svg#close-mobil"></use>
+            </svg>
+          </button>
+        </li>
+      </ul>
 
-    <button type="button" class="menu-toggle js-close-menu">
-      <svg width="24" height="24" class="mobile-close">
-        <use href="./img/icons.svg#close-mobil"></use>
-      </svg>
-    </button>
-    <div class="header-mobil-bg"></div>
-    <ul class="list header-mobil-bottom">
-      <li>
-        <a class="link header-mobil-font" href="#about">About</a>
-      </li>
-      <li>
-        <a class="link header-mobil-font" href="#yahtsblock">Yachts</a>
-      </li>
-      <li>
-        <a class="link header-mobil-font" href="#review">Reviews</a>
-      </li>
-    </ul>
-    <div class="light-1"></div>
-    <div class="light-2"></div>
+      <ul class="list header-mobil-bottom">
+        <li>
+          <a class="link header-mobil-font" href="#about">About</a>
+        </li>
+        <li>
+          <a class="link header-mobil-font" href="#yahtsblock">Yachts</a>
+        </li>
+        <li>
+          <a class="link header-mobil-font" href="#review">Reviews</a>
+        </li>
+      </ul>
+      <div class="light-1"></div>
+      <div class="light-2"></div>
+    </div>
   </div>
 </header>
-
-
