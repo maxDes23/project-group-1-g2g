@@ -166,33 +166,22 @@
     opacity: 0.5;
 }
 
-/* Latying */
+   .light-container {
+       position: relative;
+       overflow: hidden;
+   }
 
-.light-1 {
-    position: absolute;
-    top: 572px;
-    left: -206px;
-    width: 279px;
-    height: 279px;
-    transform: rotate(-44.916deg);
-    flex-shrink: 0;
-    border-radius: 279px;
-    opacity: 0.6000000238418579;
-    background: #91AFBA;
-    filter: blur(100px);
+   .light {
+       position: absolute;
+       top: 710px;
+       left: -200px;
+       width: 375px;
+       height: 812px;
+       transform: rotate(-65deg);
+       flex-shrink: 0;
+       border-radius: 375px;
+       opacity: 0.6;
+       background: var(--light-green);
+       filter: blur(100px);
 
-}
-
-.light-2 {
-    position: absolute;
-    top: 712px;
-    left: 53px;
-    width: 279px;
-    height: 279px;
-    transform: rotate(-44.916deg);
-    flex-shrink: 0;
-    border-radius: 279px;
-    opacity: 0.8999999761581421;
-    background: #939CAC;
-    filter: blur(100px);
-}
+   }
