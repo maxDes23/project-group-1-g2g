@@ -168,7 +168,7 @@
 /*YACHT-LOGO*/
     .yacht-logo {
         fill: rgba(246, 245, 239, 0.50);
-        stroke: #000;
+        stroke:  #11131f;
      }
      @media screen and (min-width:768px) {
         .yacht-logo { width: 23px;
