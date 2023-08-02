@@ -88,7 +88,9 @@
 
     .menu-toggle {
         display: none;
-    }
+            }
+    .light-1{display:none;}
+    .light-2{display:none;}
 }
 
 
