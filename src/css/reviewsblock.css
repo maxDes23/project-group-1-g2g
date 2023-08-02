@@ -9,6 +9,7 @@ body {
     position: relative;
     font-family: var(--prim-fnt);
     color: var(--dark-color);
+    background: white;
     background: var(--dark-blue, #11131F);
     text-decoration: none;
     font-style: normal;
@@ -116,21 +117,32 @@ main {
 }
 
 .indicator {
+    margin: 0;
     display: flex;
     justify-content: center;
     gap: 10px;
     margin-top: 14px;
-    ;
 }
 
 .point {
     width: 13px;
     height: 13px;
     border-radius: 50%;
+    
+}
+
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0;
+}
+
+.swiper-pagination-bullet {
+    width: 13px;
+    height: 13px;
+    opacity: 100%;
     background-color: #1F212D;
 }
 
-.point.active {
+.swiper-pagination-bullet-active {
     background-color: #93ABAE;
 }
 
