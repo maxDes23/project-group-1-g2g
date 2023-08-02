@@ -20,6 +20,7 @@
 
 .yahtsblock_container {
   padding-bottom: 80px;
+  position: relative;
 }
 
 @media only screen and (min-width: 768px) {
@@ -41,6 +42,7 @@
   margin: 0 auto;
   gap: 40px;
   padding-bottom: 80px;
+  
 }
 
 @media only screen and (min-width: 768px) {
@@ -66,7 +68,7 @@
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: -1.62px;
-  z-index: 0;
+  z-index: 1;
 }
 
 @media only screen and (min-width: 768px) {
@@ -114,15 +116,13 @@
   |============================
 */
 
-.circle-container {
-  display: flex;
-  position: relative;
-}
 
-.circle1 {
+
+.yahtsblock_container:after {
   position: absolute;
   width: 255px;
   height: 255px;
+  content: "";
   transform: rotate(-44.916deg);
   flex-shrink: 0;
   border-radius: 420px;
@@ -130,7 +130,7 @@
   background: #91AFBA;
   filter: blur(100px);
   background-size: cover;
-  animation: rotate 8s linear infinite;
+  /* animation: rotate 8s linear infinite; */
   left: -74px;
   top: -44px;
 }
@@ -157,10 +157,11 @@
   }
 }
 
-.circle2 {
+.yahtsblock_container:before {
   position: absolute;
   width: 195px;
   height: 195px;
+  content: "";
   transform: rotate(-44.916deg);
   flex-shrink: 0;
   border-radius: 190px;
@@ -168,7 +169,7 @@
   background: #A6A9B2;
   filter: blur(100px);
   background-size: cover;
-  animation: rotate 8s linear infinite;
+  /* animation: rotate 8s linear infinite; */
   right: -32px;
     top: -32px;
 }
@@ -196,11 +197,11 @@
   }
 }
 
-@keyframes rotate {
+/* @keyframes rotate {
   100% {
     transform: rotate(360deg);
   }
-}
+} */
 
 /**
   |============================
