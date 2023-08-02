@@ -1,12 +1,12 @@
 /* Mobil */
 .header {
-    margin-bottom: 40px;
+    padding-bottom: 40px;
 }
 
-.header-container {
+.header-box {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid rgba(246, 245, 239, 0.20);
+    border-bottom: 2px solid var(--text-cart);
 }
 
 .header-list {
@@ -14,11 +14,12 @@
     align-items: center;
     gap: 8px;
     padding: 24px 0;
+
 }
 
 .yacht-icon {
-    fill: rgba(246, 245, 239, 0.50);
-    stroke: #000;
+    fill: var(--text-cart);
+    stroke: var(--dark-blue);
 }
 
 .header-logo {
@@ -28,7 +29,7 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #F6F5EF;
+    color: var(--white);
 }
 
 .header-menu {
@@ -38,17 +39,16 @@
 .menu-toggle {
     background-color: transparent;
     border: none;
-
 }
 
 .menu-toggle-icon {
-    fill: #F6F5EF;
+    fill: var(--white);
 }
 
 /* Tablet */
 @media screen and (min-width:768px) {
     .header {
-        margin-bottom: 64px;
+        padding-bottom: 64px;
     }
 
     .header-list {
@@ -60,11 +60,15 @@
         height: 23px;
     }
 
+    .header-nav {
+        padding: 32px 0;
+    }
+
     .header-menu {
         display: flex;
         align-items: center;
         gap: 24px;
-        padding: 32px 0;
+
     }
 
     .header-menu-link {
@@ -87,12 +91,6 @@
     }
 }
 
-/* Desktop */
-@media screen and (min-width:1280px) {
-    .header {
-        margin-bottom: 50px;
-    }
-}
 
 /* Mobile menu */
 
@@ -104,13 +102,12 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    padding: 24px 20px 521px 20px;
+
     background: var(--dark-blue);
     z-index: 999;
-    overflow: hidden;
-    
+
     transform: translateX(100%);
-    transition: transform 250ms ease-in-out;
+    transition: transform 300ms ease-in-out;
 }
 
 .header-mobil-menu.is-open {
@@ -125,21 +122,22 @@
     border: none;
 }
 
+.header-mobile-container {
+    padding: 24px 20px 521px 20px;
+}
+
+
 .header-mobil-list {
     display: flex;
     align-items: center;
     gap: 8px;
-    margin-bottom: 24px;
+    padding-bottom: 24px;
+    border-bottom: 2px solid var(--text-cart);
+    margin-bottom: 140px;
 }
 
 .mobile-close {
     fill: #F6F5EF;
-}
-
-.header-mobil-bg {    
-    border-bottom: 1px solid rgba(246, 245, 239, 0.20);
-    margin-bottom: auto;
-    max-width: 335px;
 }
 
 .header-mobil-bottom {
@@ -147,7 +145,6 @@
     flex-direction: column;
     align-items: center;
     gap: 14px;
-    margin-top: 140px;
 }
 
 .header-mobil-font {
