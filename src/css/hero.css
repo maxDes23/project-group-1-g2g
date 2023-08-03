@@ -279,7 +279,7 @@
 }
 
 .hero-card-container {
-  background-image: url('./img/hero/fon-p@1x.webp');
+  background-image: url('../img/hero/fon-p@1x.webp');
 
   background-repeat: no-repeat;
   background-position: center;
@@ -300,14 +300,14 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero-card-container {
-    background-image: url('./img/hero/fon-p@2x.webp');
+    background-image: url('../img/hero/fon-p@2x.webp');
   }
 }
 
 /* Tablet screen */
 @media only screen and (min-width: 768px) {
   .hero-card-container {
-    background-image: url('./img/hero/fon-t@1x.webp');
+    background-image: url('../img/hero/fon-t@1x.webp');
     padding-top: 27px;
     padding-bottom: 64px;
     width: 426px;
@@ -319,21 +319,21 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero-card-container {
-      background-image: url('./img/hero/fon-t@2x.wbp');
+      background-image: url('../img/hero/fon-t@2x.webp');
     }
   }
 }
 /* Desktop screen */
 @media only screen and (min-width: 1280px) {
   .hero-card-container {
-    background-image: url('./img/hero/fon-d@1x.webp');
+    background-image: url('../img/hero/fon-d@1x.webp');
   }
   /* Retina*/
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero-card-container {
-      background-image: url('./img/hero/fon-d@2x.webp');
+      background-image: url('../img/hero/fon-d@2x.webp');
     }
   }
 }
