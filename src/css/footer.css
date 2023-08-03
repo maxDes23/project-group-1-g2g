@@ -316,7 +316,6 @@
     opacity: 0.6000000238418579;
     background: #93ABAE;
     filter: blur(100px);
-    animation: rotate 8s linear infinite;
 }
 
 @media screen and (min-width:768px){
@@ -334,7 +333,7 @@
         width: 415px;
         height: 415px;
         border-radius: 415px;
-        transform: rotate(-0.089deg);
+        transform: rotate(-45.044deg);
         left: 225px;
         top: 257px;
       }
@@ -346,7 +345,7 @@
         content: "";
         width: 317px;
         height: 317px;
-        transform: rotate(-0.089deg);
+        transform: rotate(-45.044deg);
         flex-shrink: 0;
         border-radius: 317px;
         opacity: 0.30000001192092896;
@@ -354,12 +353,5 @@
         filter: blur(100px);
         left: 700px;
         top: 281px;
-        animation: rotate 8s linear infinite;
           }
       }
-    
-      @keyframes rotate {
-        100% {
-            transform: rotate(360deg);
-        }
-    }
