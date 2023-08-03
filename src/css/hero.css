@@ -106,10 +106,12 @@
     left: -255px;
   }
 }
+.hero-content-container {margin-bottom: 40px}
 
 @media only screen and (max-width: 767px) {
   .hero-content-container::before {
     display: none;
+   
   }
 }
 
@@ -138,6 +140,7 @@
 @media only screen and (min-width: 768px) {
   .hero-content-container {
     margin-left: 0;
+    margin-bottom: 64px;
   }
 }
 
@@ -220,14 +223,13 @@
   display: flex;
   gap: 8px;
   align-items: center;
-
-  margin-bottom: 40px;
+  
 }
 
 @media only screen and (min-width: 768px) {
   .hero-btn-list {
     gap: 11px;
-    margin-bottom: 64px;
+    
   }
 }
 
