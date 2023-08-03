@@ -38,9 +38,7 @@
     }
 }
 
-@media only screen and (min-width: 1280px) {
-    .adv-title {}
-}
+
 
 .adv-span {
     color: #BEC7C2;
@@ -154,7 +152,7 @@
     }
 }
 
-.adv-img-start {}
+
 
 @media only screen and (max-width:767px) {
     .adv-img-start {
