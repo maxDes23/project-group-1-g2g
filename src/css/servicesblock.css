@@ -56,8 +56,8 @@
 }
 .services-item {
     position: relative;
-    width: 335px;
-    height: 335px;
+    max-width: 335px;
+    max-height: 335px;
     border-radius: 40px;
     overflow: hidden;
 }
@@ -68,30 +68,30 @@
 }
 @media only screen and (min-width: 768px) {
     .services-item.first {
-        width: 704px;
-        height: 632px;
+        max-width: 704px;
+        max-height: 632px;
     }
     .services-item.second {
-        width: 400px;
-        height: 389px;
+        max-width: 400px;
+        max-height: 389px;
     }
     .services-item.third {
-        width: 380px;
-        height: 352px;
+        max-width: 380px;
+        max-height: 352px;
     }
 }
 @media only screen and (min-width: 1280px) {
     .services-item.first {
-        width: 712px;
-        height: 632px;
+        max-width: 712px;
+        max-height: 632px;
     }
     .services-item.second {
-        width: 440px;
-        height: 428px;
+        max-width: 440px;
+        max-height: 428px;
     }
     .services-item.third {
-        width: 436px;
-        height: 352px;
+        max-width: 436px;
+        max-height: 352px;
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
