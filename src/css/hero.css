@@ -6,20 +6,20 @@
 
 .hero-section {
   font-family: DM Sans, sans-serif;
-  margin-bottom: 80px;
+  padding-bottom: 80px;
   padding-top: 40px;
 }
 
 @media only screen and (min-width: 768px) {
   .hero-section {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
     padding-top: 64px;
-    }
+  }
 }
 
 @media only screen and (min-width: 1280px) {
-   .hero-section {
-    margin-bottom: 164px;
+  .hero-section {
+    padding-bottom: 164px;
   }
 }
 
@@ -43,9 +43,8 @@
   }
 }
 
-
 .hero-container::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 370px;
   left: -100px;
@@ -77,7 +76,7 @@
 }
 
 .hero-container::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 315px;
   left: -260px;
@@ -115,7 +114,7 @@
 }
 
 .hero-content-container::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 450px;
   left: 50px;
@@ -280,7 +279,7 @@
 }
 
 .hero-card-container {
-  background-image: url('../img/hero/fon-p@1x.png');
+  background-image: url('./img/hero/fon-p@1x.webp');
 
   background-repeat: no-repeat;
   background-position: center;
@@ -301,14 +300,14 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero-card-container {
-    background-image: url('../img/hero/fon-p@2x.png');
+    background-image: url('./img/hero/fon-p@2x.webp');
   }
 }
 
 /* Tablet screen */
 @media only screen and (min-width: 768px) {
   .hero-card-container {
-    background-image: url('../img/hero/fon-t@1x.png');
+    background-image: url('./img/hero/fon-t@1x.webp');
     padding-top: 27px;
     padding-bottom: 64px;
     width: 426px;
@@ -320,21 +319,21 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero-card-container {
-      background-image: url('../img/hero/fon-t@2x.png');
+      background-image: url('./img/hero/fon-t@2x.wbp');
     }
   }
 }
 /* Desktop screen */
 @media only screen and (min-width: 1280px) {
   .hero-card-container {
-    background-image: url('../img/hero/fon-d@1x.png');
+    background-image: url('./img/hero/fon-d@1x.webp');
   }
   /* Retina*/
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero-card-container {
-      background-image: url('../img/hero/fon-d@2x.png');
+      background-image: url('./img/hero/fon-d@2x.webp');
     }
   }
 }
