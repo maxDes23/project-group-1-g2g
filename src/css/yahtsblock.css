@@ -45,20 +45,20 @@
     align-items: flex-start;
     margin: 0 auto;
     gap: 40px;
-    padding-bottom: 80px;
+    margin-bottom: 80px;
 }
 
 @media only screen and (min-width: 768px) {
   .yacht-title-container {
     gap: 64px;
-    padding-bottom: 100px;
+    margin-bottom: 100px;
     padding-left: 64px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .yacht-title-container {
-    padding-bottom: 164px;
+    margin-bottom: 164px;
     padding-left: 199px;
   }
 }
