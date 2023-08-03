@@ -63,6 +63,10 @@
         gap: 24px;
 
     }
+    
+    .menu-toggle {
+        display: none;
+    }
 
     .header-menu-link {
         color: var(--white, #F6F5EF);
