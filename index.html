@@ -1424,9 +1424,16 @@
     <script>
     var swiper = new Swiper(".mySwiper", {
       spaceBetween: 10,
-      centeredSlides: true,
+      effect: 'coverflow', 
+  coverflowEffect: {
+    rotate: 0, 
+    stretch: 0, 
+    depth: 500, 
+    modifier: 5,
+    slideShadows: true,
+  },
       autoplay: {
-        delay: 5000,
+        delay: 4000,
         disableOnInteraction: false,
       },
       pagination: {
