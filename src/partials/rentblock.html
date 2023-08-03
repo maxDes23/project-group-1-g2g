@@ -15,7 +15,7 @@
             ./img/rentblok/rent-img-tabl.webp    1x,
             ./img/rentblok/rent-img-tabl@2x.webp 2x
           "
-          media="(min-width: 768px)"
+          media="(max-width: 1279px)"
         />
         <source
           srcset="
@@ -28,6 +28,9 @@
           class="img-yaht"
           src="../img/rentblok/rent-img-mob.webp"
           alt="yaht-rent"
+          width="282"
+          height="191"
+          loading="lazy"
         />
       </picture>
     </div>
@@ -75,7 +78,7 @@
           <textarea id="user-comment" name="user-comment" class="rent-texterea">
           </textarea>
         </div>
-      </form>
+      
       <button class="rent-btn-send" type="submit" data-modal-open>
         Send
         <span
@@ -84,6 +87,7 @@
           </svg>
         </span>
       </button>
+    </form>
     </div>
   </div>
 </section>

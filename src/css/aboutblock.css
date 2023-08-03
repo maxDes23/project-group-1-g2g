@@ -140,6 +140,7 @@
         flex-wrap: wrap;
         align-items: flex-start;
         padding-bottom: 83px;
+        margin-top: 0px;
     }
 }
 
@@ -149,6 +150,7 @@
         align-items: baseline;
         padding-right: 150px;
         padding-bottom: 64px;
+        margin-top: 0px;
     }
 }
 
