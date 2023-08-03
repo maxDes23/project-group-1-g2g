@@ -40,6 +40,11 @@
     margin: 0;
     padding: 0;
     } 
+    .footer-logo-text:hover,
+    .footer-logo-text:focus,
+    .footer-logo-text:active {
+        opacity: 0.5;
+    }
     @media screen and (min-width:768px) {
         .footer-logo-text {
             color: #F6F5EF;
@@ -168,7 +173,7 @@
 /*YACHT-LOGO*/
     .yacht-logo {
         fill: rgba(246, 245, 239, 0.50);
-        stroke: #000;
+        stroke:  #11131f;
      }
      @media screen and (min-width:768px) {
         .yacht-logo { width: 23px;
@@ -298,7 +303,7 @@
     }
 
 /*LIGHT*/
-.light1:after {
+.container-footer:after {
     position: absolute;
     content: "";
     width: 420px;
@@ -315,7 +320,7 @@
 }
 
 @media screen and (min-width:768px){
-    .light1:after {
+    .container-footer:after {
         width: 419px;
         height: 419px;
         border-radius: 419px;
@@ -325,7 +330,7 @@
       }
   }
 @media screen and (min-width:1280px) {
-    .light1:after {
+    .container-footer:after {
         width: 415px;
         height: 415px;
         border-radius: 415px;
@@ -336,7 +341,7 @@
   }
 
     @media screen and (min-width:1280px) {
-    .light2:after {
+    .footer-box:after {
         position: absolute;
         content: "";
         width: 317px;
@@ -347,8 +352,8 @@
         opacity: 0.30000001192092896;
         background: #A6A9B2;
         filter: blur(100px);
-        right: 200px;
-        top: 285px;
+        left: 700px;
+        top: 281px;
         animation: rotate 8s linear infinite;
           }
       }

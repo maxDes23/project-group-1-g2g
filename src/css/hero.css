@@ -7,10 +7,18 @@
 .hero-section {
   font-family: DM Sans, sans-serif;
   margin-bottom: 80px;
+  padding-top: 40px;
 }
 
 @media only screen and (min-width: 768px) {
   .hero-section {
+    margin-bottom: 100px;
+    padding-top: 64px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+   .hero-section {
     margin-bottom: 164px;
   }
 }
@@ -35,8 +43,99 @@
   }
 }
 
-.hero-content-container {
+
+.hero-container::before {
+  content: "";
+  position: absolute;
+  top: 370px;
+  left: -100px;
+  width: 279px;
+  height: 279px;
+  transform: rotate(-45deg);
+  flex-shrink: 0;
+  border-radius: 279px;
+  opacity: 0.9;
+  background: #939cac;
+  filter: blur(100px);
 }
+
+@media only screen and (min-width: 768px) {
+  .hero-container::before {
+    top: 490px;
+    left: -180px;
+    width: 414px;
+    height: 414px;
+    border-radius: 414px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .hero-container::before {
+    top: 220px;
+    left: -20px;
+  }
+}
+
+.hero-container::after {
+  content: "";
+  position: absolute;
+  top: 315px;
+  left: -260px;
+  width: 279px;
+  height: 279px;
+  transform: rotate(-45deg);
+  flex-shrink: 0;
+  border-radius: 279px;
+  opacity: 0.6;
+  background: #91afba;
+  filter: blur(100px);
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-container::after {
+    top: 430px;
+    left: -420px;
+    width: 414px;
+    height: 414px;
+    border-radius: 414px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .hero-container::after {
+    top: 160px;
+    left: -255px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .hero-content-container::before {
+    display: none;
+  }
+}
+
+.hero-content-container::before {
+  content: "";
+  position: absolute;
+  top: 450px;
+  left: 50px;
+  width: 316px;
+  height: 316px;
+  transform: rotate(-45deg);
+  flex-shrink: 0;
+  border-radius: 316px;
+  opacity: 0.3;
+  background: #a6a9b2;
+  filter: blur(100px);
+}
+
+@media only screen and (min-width: 1280px) {
+  .hero-content-container::before {
+    top: 180px;
+    left: 220px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .hero-content-container {
     margin-left: 0;
@@ -237,104 +336,6 @@
     .hero-card-container {
       background-image: url('../img/hero/fon-d@2x.png');
     }
-  }
-}
-
-.hero-light {
-  position: absolute;
-  top: 375px;
-  left: -100px;
-  width: 279px;
-  height: 279px;
-  transform: rotate(-45deg);
-  flex-shrink: 0;
-  border-radius: 279px;
-  opacity: 0.9;
-  background: #939cac;
-  filter: blur(100px);
-  background-size: cover;
-  animation: rotate 8s linear infinite;
-}
-
-@media only screen and (min-width: 768px) {
-  .hero-light {
-    top: 480px;
-    left: -180px;
-    width: 414px;
-    height: 414px;
-    border-radius: 414px;
-  }
-}
-
-@media only screen and (min-width: 1280px) {
-  .hero-light {
-    top: 220px;
-    left: -20px;
-  }
-}
-
-.hero-light-one {
-  position: absolute;
-  top: 330px;
-  left: -260px;
-  width: 279px;
-  height: 279px;
-  transform: rotate(-45deg);
-  flex-shrink: 0;
-  border-radius: 279px;
-  opacity: 0.6;
-  background: #91afba;
-  filter: blur(100px);
-  background-size: cover;
-  animation: rotate 8s linear infinite;
-}
-@media only screen and (min-width: 768px) {
-  .hero-light-one {
-    top: 440px;
-    left: -420px;
-    width: 414px;
-    height: 414px;
-    border-radius: 414px;
-  }
-}
-@media only screen and (min-width: 1280px) {
-  .hero-light-one {
-    top: 162px;
-    left: -240px;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .hero-light-two {
-    display: none;
-  }
-}
-
-.hero-light-two {
-  position: absolute;
-  top: 450px;
-  left: 50px;
-  width: 316px;
-  height: 316px;
-  transform: rotate(-45deg);
-  flex-shrink: 0;
-  border-radius: 316px;
-  opacity: 0.3;
-  background: #a6a9b2;
-  filter: blur(100px);
-  background-size: cover;
-  animation: rotate 8s linear infinite;
-}
-@media only screen and (min-width: 1280px) {
-  .hero-light-two {
-    top: 190px;
-    left: 270px;
-  }
-}
-
-@keyframes rotate {
-  100% {
-    transform: rotate(360deg);
   }
 }
 

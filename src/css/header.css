@@ -1,7 +1,4 @@
 /* Mobil */
-.header {
-    /* padding-bottom: 40px; */
-}
 
 .header-box {
     display: flex;
@@ -47,10 +44,6 @@
 
 /* Tablet */
 @media screen and (min-width:768px) {
-    .header {
-        padding-bottom: 64px;
-    }
-
     .header-list {
         padding: 32px 0;
     }
@@ -86,11 +79,17 @@
         opacity: 0.5;
     }
 
-    .menu-toggle {
-        display: none;
+    
+
             }
     .light-conteiner{display:none;}
     .light{display:none;}
+
+    }
+    .light {
+        display: none;
+    }
+
 }
 
 

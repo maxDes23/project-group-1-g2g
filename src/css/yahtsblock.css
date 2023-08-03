@@ -14,22 +14,26 @@
     stroke: #f6f5ef;
     opacity: 0.5789473652839661;
 
-    z-index: 0;
+    z-index: 1;
   }
 }
 
 .yahtsblock_container {
-  padding-bottom: 80px;
+  position: relative;
 }
 
+.section-yahtsblock {
+  padding-bottom: 80px;
+  }
+
 @media only screen and (min-width: 768px) {
-  .yahtsblock_container {
+  .section-yahtsblock {
     padding-bottom: 100px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
-  .yahtsblock_container {
+  .section-yahtsblock {
     padding-bottom: 164px;
   }
 }
@@ -41,6 +45,7 @@
   margin: 0 auto;
   gap: 40px;
   padding-bottom: 80px;
+  
 }
 
 @media only screen and (min-width: 768px) {
@@ -66,7 +71,7 @@
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: -1.62px;
-  z-index: 0;
+  z-index: 1;
 }
 
 @media only screen and (min-width: 768px) {
@@ -104,7 +109,7 @@
   font-weight: 700;
   line-height: 1.1;
   letter-spacing: -0.81px;
-  z-index: 0;
+  z-index: 1;
   background: transparent;
 }
 
@@ -114,15 +119,11 @@
   |============================
 */
 
-.circle-container {
-  display: flex;
-  position: relative;
-}
-
-.circle1 {
+.yahtsblock_container:after {
   position: absolute;
   width: 255px;
   height: 255px;
+  content: "";
   transform: rotate(-44.916deg);
   flex-shrink: 0;
   border-radius: 420px;
@@ -130,37 +131,38 @@
   background: #91AFBA;
   filter: blur(100px);
   background-size: cover;
-  animation: rotate 8s linear infinite;
-  left: -74px;
+  /* animation: rotate 8s linear infinite; */
+  left: -53px;
   top: -44px;
 }
 
 @media screen and (min-width: 768px) {
-  .circle1 {
+  .yahtsblock_container:after {
     width: 399px;
     height: 399px;
     transform: rotate(-44.094deg);
     border-radius: 399px;
-    left: 23px;
+    left: 65px;
     top: -95px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .circle1 {
+  .yahtsblock_container:after {
     width: 414px;
     height: 414px;
     transform: rotate(-45.044deg);
     border-radius: 414px;
-    left: 259px;
+    left: 294px;
     top: -66px;
   }
 }
 
-.circle2 {
+.yahtsblock_container:before {
   position: absolute;
   width: 195px;
   height: 195px;
+  content: "";
   transform: rotate(-44.916deg);
   flex-shrink: 0;
   border-radius: 190px;
@@ -168,39 +170,39 @@
   background: #A6A9B2;
   filter: blur(100px);
   background-size: cover;
-  animation: rotate 8s linear infinite;
-  right: -32px;
+  /* animation: rotate 8s linear infinite; */
+  right: -25px;
     top: -32px;
 }
 
 @media screen and (min-width: 768px) {
-  .circle2 {
+  .yahtsblock_container:before {
     width: 304px;
     height: 304px;
     transform: rotate(-44.094deg);
     border-radius: 304px;
     right: 100px;
-    left: 450px;
+    left: 480px;
     top: -70px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .circle2 {
+  .yahtsblock_container:before {
     width: 316px;
     height: 316px;
     transform: rotate(-45.074deg);
     border-radius: 316px;
-    left: 725px;
-    top: -52px;
+    left: 759px;
+    top: -41px;
   }
 }
 
-@keyframes rotate {
+/* @keyframes rotate {
   100% {
     transform: rotate(360deg);
   }
-}
+} */
 
 /**
   |============================
@@ -212,6 +214,7 @@
   .yahts-cards {
     margin: 0 11px;
     position: relative;
+    z-index: 1;
   }
 }
 
@@ -261,7 +264,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 6px;
+  margin: 24px 6px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -269,7 +272,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 32px 16px;
+    margin: 32px 16px;
   }
 }
 

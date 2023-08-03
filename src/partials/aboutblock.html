@@ -1,5 +1,6 @@
 
-<section class="aboutblock container" id="about">
+<section class="aboutblock" id="about">
+  <div class="container">
     <div class="about-text-div">
     <div class="title-div">
     <p class="adv-title"><span class="adv-span">Yacht Adventures</span> fleet is here to take you on the ultimate adventure. Each yacht is hand-picked for its comfort, style, and performance.</p>
@@ -11,33 +12,28 @@
 </ul></div>
 <ul class="adv-img-list">
 <li class="adv-img-item">
-    <img
-    class="adv-img-start"
-    srcset="./img/review/aboutblock/imgyahttablet@1x.jpg 1x, ./img/review/aboutblock/imgyahttablet@2x.jpg 2x"
-    src="./img/review/aboutblock/imgyahttablet@1x.jpg"
-    alt="yaht1"
-    width="704"
-    height="630"
-  /></li>
+    <picture>
+      <source srcset="./img/review/aboutblock/imgyaht@1x.webp 1x, ./img/review/aboutblock/imgyaht@2x.webp 2x" media="(max-width: 767px)">
+      <source srcset="./img/review/aboutblock/imgyahttablet@1x.webp 1x, ./img/review/aboutblock/imgyahttablet@1x.webp 2x" media="(min-width: 768px)">
+      <source srcset="./img/review/aboutblock/imgyahtpc@1x.webp 1x, ./img/review/aboutblock/imgyahtpc@2x.webp 2x" media="(min-width: 1280px)">
+      <img src="./img/review/aboutblock/imgyaht@2x.webp" alt="Big yaht" class="adv-img-start" width="704" height="631"/>
+   </picture></li>
 <li class="adv-img-item-2">
-    <img
-    class="adv-img"
-    srcset="./img/review/aboutblock/imgyaht2@1x.png 1x, ./img/review/aboutblock/imgyaht2@2x.png 2x"
-    src="./img/review/aboutblock/imgyaht2@1x.png"
-    alt="yaht2"
-    width="335"
-    height="289"
-  />
+  <picture>
+    <source srcset="./img/review/aboutblock/imgyaht2@1x.webp 1x, ./img/review/aboutblock/imgyaht2@2x.webp 2x" media="(max-width: 767px)">
+    <source srcset="./img/review/aboutblock/imgyahttablet2@1x.webp 1x, ./img/review/aboutblock/imgyahttablet2@1x.webp 2x" media="(min-width: 768px)">
+    <source srcset="./img/review/aboutblock/imgyahtpc2@1x.webp 1x, ./img/review/aboutblock/imgyahtpc2@2x.webp 2x" media="(min-width: 1280px)">
+    <img src="./img/review/aboutblock/imgyaht2@2x.webp" alt="Small yaht" class="" width="335" height="289"/>
+ </picture>
 </li>
 </ul>
 <div class="aboutblock-img">
-  <img
-  class="adv-img-third"
-  srcset="./img/review/aboutblock/imgyaht3@1x.png 1x, ./img/review/aboutblock/imgyaht3@2x.png 2x"
-  src="./img/review/aboutblock/imgyaht3@1x.png"
-  alt="yaht3"
-  width="260"
-  height="244"
-/>
+   <picture>
+    <source srcset="./img/review/aboutblock/imgyaht3@1x.webp 1x, ./img/review/aboutblock/imgyaht3@2x.webp 2x" media="(max-width: 767px)">
+    <source srcset="./img/review/aboutblock/imgyahttablet3@1x.webp 1x, ./img/review/aboutblock/imgyahttablet3@1x.webp 2x" media="(min-width: 768px)">
+    <source srcset="./img/review/aboutblock/imgyahtpc3@1x.webp 1x, ./img/review/aboutblock/imgyahtpc3@2x.webp 2x" media="(min-width: 1280px)">
+    <img src="./img/review/aboutblock/imgyaht3@2x.webp" alt="Under yaht" class="adv-img-third" width="260" height="244"/>
+ </picture>
+</div>
 </div>
 </section>
