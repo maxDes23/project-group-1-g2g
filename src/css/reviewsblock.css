@@ -182,9 +182,7 @@ main {
 
 
 @media screen and (max-width: 1279px) {
-    .card3 {
-        display: none;
-    }
+    
     .review-desctop {
         display: none;
     }
@@ -220,11 +218,17 @@ main {
         max-width: 273px;
     }
 
-    .review-card-list {
+    .card-block {
         display: flex;
-        flex-wrap: wrap;
         justify-content: center;
         gap: 16px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .review-card-list {
+        display: flex;
+        gap: 0px;
         margin-bottom: 32px;
     }
 
