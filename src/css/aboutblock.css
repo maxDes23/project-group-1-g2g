@@ -16,10 +16,6 @@
     }
 }
 
-@media only screen and (min-width: 1280px) {
-    .title-div {}
-}
-
 .adv-title {
     color: #F6F5EF;
     font-family: DM Sans;
