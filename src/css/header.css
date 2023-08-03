@@ -179,7 +179,7 @@ header{padding-bottom:0px;}
      flex-shrink: 0;
      border-radius: 279px;
      opacity: 0.6;
-     background: #91AFBA;
+     background: var(--light-blue);
      filter: blur(100px);
 }
 
