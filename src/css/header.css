@@ -9,7 +9,7 @@ header{padding-bottom:0px;}
 
 .header-list {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     gap: 8px;
     padding: 24px 0;
 
