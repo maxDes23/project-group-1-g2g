@@ -1,5 +1,5 @@
 .rent-blok {
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 }
 
 .rent-container::after {
@@ -8,16 +8,12 @@
   width: 283px;
   height: 283px;
   transform: rotate(-44.916deg);
-  width: 414px;
-  height: 414px;
-  transform: rotate(-45.074deg);
-  flex-shrink: 0;
-  border-radius: 414px;
+  border-radius: 283px;
   opacity: 0.6;
   background: #91afba;
   filter: blur(100px);
-  top: 4600px;
-  right: -250px;
+  top: 4720px;
+  right: -120px;
 }
 
 .title-rent {
@@ -30,8 +26,6 @@
 }
 
 .img-yaht {
-  width: 259px;
-  height: 187px;
   margin-left: 0;
   margin-bottom: 40px;
 }
@@ -185,7 +179,7 @@
 
 @media screen and (min-width: 768px) {
   .rent-blok {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
   .rent-container {
     display: flex;
@@ -262,7 +256,7 @@
 
 @media screen and (min-width: 1280px) {
   .rent-blok {
-    margin-bottom: 164px;
+    padding-bottom: 164px;
   }
   .rent-container {
     gap: 188px;
