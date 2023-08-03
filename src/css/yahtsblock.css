@@ -242,7 +242,7 @@
 }
 
 .yahts-cards-item {
-  width: 335px;
+  max-width: 335px;
   height: 469px;
   padding: 18px 18px 24px 18px;
   border-radius: 24px;
