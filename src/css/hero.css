@@ -23,6 +23,11 @@
   }
 }
 
+/**
+  |============================
+  | Hero container
+  |============================
+*/
 .hero-container {
   position: relative;
   display: flex;
@@ -42,6 +47,8 @@
     gap: 236px;
   }
 }
+
+/* LIGHT */
 
 .hero-container::before {
   content: '';
@@ -147,9 +154,13 @@
   }
 }
 
+/**
+  |============================
+  | Hero content-container
+  |============================
+*/
 .hero-title {
   color: var(--white);
-  font-family: DM Sans, sans-serif;
   font-size: 36px;
   font-weight: 500;
   line-height: 1.1;
@@ -178,7 +189,6 @@
 .hero-title-italic {
   color: #bec7c2;
 
-  font-family: DM Sans, sans-serif;
   font-size: 36px;
   font-weight: 500;
   line-height: 1.1;
@@ -195,9 +205,7 @@
 
 .hero-text {
   color: var(--white);
-  font-family: DM Sans, sans-serif;
   font-size: 14px;
-  font-weight: 400;
   line-height: 1.4;
   letter-spacing: -0.28px;
 
@@ -233,7 +241,6 @@
 
 .hero-btn-start {
   color: var(--white);
-  font-family: DM Sans, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.1;
@@ -257,7 +264,6 @@
 
 .hero-btn-explore {
   color: var(--white);
-  font-family: DM Sans, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.1;
@@ -277,6 +283,12 @@
   color: var(--light-green);
   border: 1px solid var(--light-green);
 }
+
+/**
+  |============================
+  | Hero card-container
+  |============================
+*/
 
 .hero-card-container {
   background-image: url('../img/hero/fon-p@1x.webp');
@@ -314,6 +326,7 @@
     margin-left: 0;
     padding-left: 32px;
   }
+
   /* Retina*/
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -323,11 +336,13 @@
     }
   }
 }
+
 /* Desktop screen */
 @media only screen and (min-width: 1280px) {
   .hero-card-container {
     background-image: url('../img/hero/fon-d@1x.webp');
   }
+
   /* Retina*/
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -412,7 +427,6 @@
 .client-title {
   width: 96px;
   color: var(--dark-blue);
-  font-family: DM Sans, sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.1;
@@ -453,9 +467,7 @@
 
 .hero-cost {
   color: var(--dark-blue);
-  font-family: DM Sans, sans-serif;
   font-size: 48px;
-  font-weight: 400;
   line-height: 1.1;
   letter-spacing: -2.16px;
   text-transform: uppercase;
@@ -466,7 +478,6 @@
 @media only screen and (min-width: 768px) {
   .hero-cost {
     font-size: 60px;
-    font-weight: 400;
     line-height: 1.1;
     letter-spacing: -2.7px;
 
@@ -477,9 +488,7 @@
 .hero-description {
   width: 169px;
   color: var(--dark-blue);
-  font-family: DM Sans, sans-serif;
   font-size: 14px;
-  font-weight: 400;
   line-height: 1.4;
   letter-spacing: -0.63px;
 }
@@ -489,7 +498,6 @@
     width: 208px;
 
     font-size: 18px;
-    font-weight: 400;
     line-height: 1.1;
     letter-spacing: -0.81px;
   }
@@ -506,8 +514,8 @@
 
 @media only screen and (min-width: 768px) {
   .hero-owners-photo {
-    width: 233px;
-    height: 233px;
+    max-width: 233px;
+    max-height: 233px;
 
     left: 339px;
     top: 32px;
