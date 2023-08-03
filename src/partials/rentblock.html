@@ -2,15 +2,34 @@
   <div class="rent-container container">
     <div class="title-img-cont">
       <h2 id="rent-blok" class="title-rent">Rent a yacht now</h2>
-      <img
-        class="img-yaht"
-        src="./img/rentblok/rentblok-img-yaht.png"
-        srcset="
-          ./img/rentblok/rentblok-img-yaht.png    1x,
-          ./img/rentblok/rentblok-img-yaht@2x.png 2x
-        "
-        alt="yaht-rent"
-      />
+      <picture>
+        <source
+          srcset="
+            ./img/rentblok/rent-img-mob.webp    1x,
+            ./img/rentblok/rent-img-mob@2x.webp 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <source
+          srcset="
+            ./img/rentblok/rent-img-tabl.webp    1x,
+            ./img/rentblok/rent-img-tabl@2x.webp 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ./img/rentblok/rent-img-desk.webp    1x,
+            ./img/rentblok/rent-img-desk@2x.webp 2x
+          "
+          media="(min-width: 1280px)"
+        />
+        <img
+          class="img-yaht"
+          src="../img/rentblok/rent-img-mob.webp"
+          alt="yaht-rent"
+        />
+      </picture>
     </div>
 
     <div class="form-cont">
@@ -77,15 +96,23 @@
     </button>
     <div>
       <div class="rent-back-lite"></div>
-      <img
-        class="img-yaht-modal"
-        src="./img/rentblok/rentblok-img-modal.png"
-        srcset="
-          ./img/rentblok/rentblok-img-modal.png    1x,
-          ./img/rentblok/rentblok-img-modal@2x.png 2x
-        "
-        alt="yaht-modal"
-      />
+      <picture>
+        <source
+          srcset="
+            ./img/rentblok/rent-yaht-mob.webp   1x,
+            ./img/rentblok/rent-yaht-mob@2.webp 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <source
+          srcset="
+            ./img/rentblok/rent-yaht-tabl.webp    1x,
+            ./img/rentblok/rent-yaht-tabl@2x.webp 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <img src="./img/rentblok/rent-yaht-mob.webp" alt="yaht-modal" />
+      </picture>
       <h4 class="rent-modal-title">Thank You</h4>
       <p class="rent-modal-text">
         Thank you for choosing Yacht Adventures, your booking details have been
