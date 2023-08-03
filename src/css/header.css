@@ -79,13 +79,10 @@
         opacity: 0.5;
     }
 
-    
-
-            }
-    .light-conteiner{display:none;}
-    .light{display:none;}
-
+    .light-conteiner{
+        display:none;
     }
+
     .light {
         display: none;
     }
