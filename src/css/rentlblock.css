@@ -2,7 +2,11 @@
   padding-bottom: 80px;
 }
 
-.rent-container::after {
+.form-cont {
+  position: relative;
+}
+
+.rent-form::after {
   content: '';
   position: absolute;
   width: 283px;
@@ -12,8 +16,9 @@
   opacity: 0.6;
   background: #91afba;
   filter: blur(100px);
-  top: 4720px;
-  right: -120px;
+  top: 130px;
+  left: 210px;
+  z-index: 10;
 }
 
 .title-rent {
@@ -237,11 +242,11 @@
     width: 24px;
     height: 24px;
   }
-  .rent-container::after {
+  .rent-form::after {
     width: 413px;
     height: 413px;
-    top: 5350px;
-    left: 600px;
+    top: 74px;
+    left: 243px;
   }
   .rent-modal-lite {
     width: 265px;
@@ -284,10 +289,10 @@
     margin-bottom: 0;
   }
 
-  .rent-container::after {
+  .rent-form::after {
     width: 414px;
     height: 414px;
-    top: 4450px;
-    left: 1036px;
+    top: 105px;
+    left: 420px;
   }
 }
