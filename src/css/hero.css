@@ -54,7 +54,7 @@
   flex-shrink: 0;
   border-radius: 279px;
   opacity: 0.9;
-  background: #939cac;
+  background: var(--light-green);
   filter: blur(100px);
 }
 
@@ -86,7 +86,7 @@
   flex-shrink: 0;
   border-radius: 279px;
   opacity: 0.6;
-  background: #91afba;
+  background: var(--light-blue);
   filter: blur(100px);
 }
 
@@ -124,7 +124,7 @@
   flex-shrink: 0;
   border-radius: 316px;
   opacity: 0.3;
-  background: #a6a9b2;
+  background: var(--light-grey);
   filter: blur(100px);
 }
 
@@ -292,7 +292,7 @@
   border-radius: 30px;
 
   position: relative;
-  width: 335px;
+  max-width: 335px;
 }
 
 /* Mobile screen  retina */
@@ -310,7 +310,7 @@
     background-image: url('../img/hero/fon-t@1x.webp');
     padding-top: 27px;
     padding-bottom: 64px;
-    width: 426px;
+    max-width: 426px;
     margin-left: 0;
     padding-left: 32px;
   }
@@ -499,8 +499,8 @@
   position: absolute;
   top: 35px;
   left: 216px;
-  width: 133px;
-  height: 133px;
+  max-width: 133px;
+  max-height: 133px;
   border-radius: 24px;
 }
 
