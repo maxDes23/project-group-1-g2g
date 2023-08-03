@@ -1,15 +1,15 @@
 /* Services section styles */
 .services-section {
-    margin-bottom: 80px;
+    padding-bottom: 80px;
 }
 @media only screen and (min-width: 768px) {
   .services-section {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .services-section {
-    margin-bottom: 164px;
+    padding-bottom: 164px;
   }
 }
 .services.container {
