@@ -441,13 +441,13 @@
   .slider-buttons {
   margin-top: 30px;
   display: flex;
-  margin-left: 125px;
+  margin-left: 115px;
 
   justify-content: space-between;
 }
 
 .slider-buttons {
-  width: 80px;
+  width: 100px;
 }
 
 .yablock-btn-swiper-style {
@@ -475,6 +475,7 @@
   border: 1px solid var(--white);
   background: transparent;
   fill: #f6f5ef;
+  transform: rotate(90deg);
 }
 
 .swiper-button-prev {
@@ -486,6 +487,7 @@
   border: 1px solid var(--white);
   background: transparent;
   fill: #f6f5ef;
+  transform: rotate(90deg);
 }
 
 .swiper-button-next:hover,
@@ -502,6 +504,13 @@
   fill: var(--light-green, #93abae);
 }
 
+   .swiper-next {
+    transform: rotate(270deg);
+  }
+ .swiper-prev {
+    transform: rotate(270deg);
+  }
+
 @media only screen and (min-width: 767px) {
   .swiper-container {
     width: 704px;
@@ -512,15 +521,15 @@
   }
 
   .slider-buttons {
-    margin-top: 32px;
+    margin-top: 20px;
     display: flex;
-    margin-left: 310px;
+    margin-left: 298px;
 
     justify-content: space-between;
   }
 
   .slider-buttons {
-    width: 80px;
+    width: 100px;
   }
 
   .swiper-button-next {
@@ -532,6 +541,7 @@
     border: 1px solid var(--white);
     background: transparent;
     fill: #f6f5ef;
+    transform: rotate(90deg);
   }
 
   .swiper-button-prev {
@@ -543,6 +553,14 @@
     border: 1px solid var(--white);
     background: transparent;
     fill: #f6f5ef;
+    transform: rotate(90deg);
+  }
+
+    .swiper-next {
+    transform: rotate(270deg);
+  }
+ .swiper-prev {
+    transform: rotate(270deg);
   }
 }
 
@@ -558,19 +576,20 @@
   .slider-buttons {
     margin-top: -245px;
     display: flex;
-    margin-left: 0;
-    width: 1216px;
+    margin-left: -5px;
+    width: 1210px;
     justify-content: space-between;
   }
   .swiper-button-next {
     display: flex;
-    padding: 18px 6px;
+    padding: 18px 8px;
     align-items: flex-start;
     gap: 10px;
     border-radius: 60px;
     border: 1px solid var(--white);
     background: transparent;
     fill: #f6f5ef;
+    transform: rotate(90deg);
   }
 
   .swiper-button-prev {
@@ -582,5 +601,14 @@
     border: 1px solid var(--white);
     background: transparent;
     fill: #f6f5ef;
+    transform: rotate(90deg);
   }
+
+  .swiper-next {
+    transform: rotate(270deg);
+  }
+ .swiper-prev {
+    transform: rotate(270deg);
+  }
+
 }
