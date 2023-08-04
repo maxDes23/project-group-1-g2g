@@ -71,6 +71,7 @@
 .rent-btn-send {
   display: flex;
   gap: 16px;
+  width: 124px;
   padding: 14px 28px;
   justify-content: center;
   align-items: center;
