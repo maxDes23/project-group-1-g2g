@@ -160,7 +160,7 @@ main {
     }
 
     .indicator {
-        margin-bottom: 16px;
+        margin-bottom: 80px;
     }
 }
 
@@ -215,7 +215,7 @@ main {
     }
 
     .indicator {
-        margin-bottom: 0px;
+        margin-bottom: 100px;
     }
 
     .review-card-item {
@@ -241,7 +241,7 @@ main {
             display: flex;
             justify-content: center;
             gap: 32px;
-            margin-bottom: 64px;
+            margin-bottom: 164px;
         }
 
         .review-card-item {
