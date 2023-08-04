@@ -1,12 +1,4 @@
-<!-- back to top button -->
-<button type="button" class="back2top" id="back-to-up">
-  <svg class="arr-up-ico" width="68" height="68">
-    <use href="./img/icons.svg#arrow-up"></use>
-  </svg>
-</button>
-
-<script>
-  (() => {
+(() => {
   window.addEventListener('scroll', function () {
     var button = document.getElementById('back-to-up');
     if (button) {
@@ -21,4 +13,3 @@
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 })();
-</script>

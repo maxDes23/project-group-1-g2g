@@ -1,0 +1,22 @@
+.back2top {
+    border: none;
+    background-color: transparent;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;    
+}
+
+@media screen and (max-width: 767px) {
+    .arr-up-ico {
+        width: 44px;
+        height: 44px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .back2top {
+        bottom: 32px;
+        right: 32px;
+    }
+}
