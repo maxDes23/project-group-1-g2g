@@ -1,11 +1,11 @@
 {
-  "name": "project-group-1-yacht",
+  "name": "project-group-1-g2g",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/project-group-1-yacht/",
+    "build": "vite build --base=/project-group-1-g2g/",
     "preview": "vite preview"
   },
   "devDependencies": {
