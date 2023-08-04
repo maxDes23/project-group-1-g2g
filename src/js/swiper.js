@@ -8,7 +8,29 @@ const swiper = new Swiper('.swiper', {
     el: '.swiper-pagination',
   },
 
+
+  grabCursor: true,
+  spaceBetween: 0,
+
+  breakpoints: {
+    100: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1280: {
+      slidesPerView: 3,
+      spaceBetween: 32,
+    },
+  },
+});
+
+new Swiper('.yahts-cards', {
+  modules: [Navigation],
+
   // Navigation arrows
+
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',

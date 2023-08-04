@@ -220,15 +220,15 @@
   }
 }
 
-.yahts-cards-list {
+/* .yahts-cards-list {
   margin-bottom: 24px;
-}
+} */
 
 @media only screen and (min-width: 768px) {
   .yahts-cards-list {
     display: flex;
-    justify-content: center;
-    gap: 16px;
+    justify-content: flex-start;
+    gap: 10px;
     margin-bottom: 32px;
   }
 }
@@ -547,6 +547,11 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .yahts-cards-list {
+      gap: 20px;
+      margin-bottom: 32px;
+    }
+
   .swiper-container {
     width: 1094px;
   }
