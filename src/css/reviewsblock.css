@@ -104,11 +104,7 @@ main {
     letter-spacing: -0.24px;
 }
 
-.back-div {
-    display: flex;
-    flex-direction: row-reverse;
-    margin-bottom: 32px;
-}
+
 
 .review-text-blk {
     box-sizing: border-box;
@@ -151,7 +147,6 @@ main {
         display: none;
     }
 
-
     .review-text-blk {
         margin-bottom: 24px;
     }
@@ -160,33 +155,20 @@ main {
         margin-bottom: 24px;
     }
 
-    .back-div {
-        margin-bottom: 20px;
-    }
-
     .review-card-list {
         margin-bottom: 14px;
     }
 
     .indicator {
         margin-bottom: 16px;
-
     }
-
-    .arr-up-ico {
-        width: 44px;
-        height: 44px;
-    }
-
 }
-
 
 @media screen and (max-width: 1279px) {
     
     .review-desctop {
         display: none;
     }
-
 }
 
 /* for tablet screen */
@@ -244,10 +226,10 @@ main {
 
     /* for desctop screen */
     @media screen and (min-width: 1280px) {
+
         .review-tablet {
             display: none;
         }
-
 
         .review-text-blk {
             display: flex;
