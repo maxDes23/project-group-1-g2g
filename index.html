@@ -17,7 +17,7 @@
 
     <!-- Custom styles -->
     
-    <link rel="stylesheet" href="/project-group-1-yacht/assets/index-714840a3.css">
+    <link rel="stylesheet" href="/project-group-1-yacht/assets/index-f61daa1f.css">
   </head>
   <body>
     <header class="header">
@@ -1452,15 +1452,29 @@
     </main>
 
     <!-- back to top button -->
-<div class="container">
-  <div class="back-div">
-    <a class="back2top" href="#">
-      <svg class="arr-up-ico" width="68" height="68">
-        <use href="/project-group-1-yacht/assets/icons-b11830d0.svg#arrow-up"></use>
-      </svg>
-    </a>
-  </div>
-</div>
+<button type="button" class="back2top" id="back-to-up">
+  <svg class="arr-up-ico" width="68" height="68">
+    <use href="/project-group-1-yacht/assets/icons-b11830d0.svg#arrow-up"></use>
+  </svg>
+</button>
+
+<script>
+  (() => {
+  window.addEventListener('scroll', function () {
+    var button = document.getElementById('back-to-up');
+    if (button) {
+      button.style.visibility =
+        window.scrollY > window.innerHeight ? 'visible' : 'hidden';
+    }
+  });
+
+  document.querySelector('#back-to-up').addEventListener('click', scrollToTop);
+
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+})();
+</script>
     <footer class="footer">
   <div class="container container-footer">
     <div class="footer-box">
