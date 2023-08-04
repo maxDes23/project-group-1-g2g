@@ -136,14 +136,13 @@ main {
     opacity: 100%;
     background-color: #1F212D;
 }
-
 .swiper-pagination-bullet-active {
     background-color: #93ABAE;
 }
 
 
 @media screen and (max-width: 767px) {
-    .review-tablet, .review-desctop {
+    .review-desctop {
         display: none;
     }
 
@@ -172,12 +171,7 @@ main {
 }
 
 /* for tablet screen */
-@media screen and (min-width: 768px) {
-    .review-mobile {
-        display: none;
-    }
-
-    
+@media screen and (min-width: 768px) {    
     .review-text-blk {
         margin-bottom: 64px;
     }
@@ -227,7 +221,7 @@ main {
     /* for desctop screen */
     @media screen and (min-width: 1280px) {
 
-        .review-tablet {
+        .review-mobile {
             display: none;
         }
 

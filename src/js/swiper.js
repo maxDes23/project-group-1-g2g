@@ -5,7 +5,7 @@ const swiper = new Swiper('.swiper', {
 
   // If we need pagination
   pagination: {
-    el: '.swiper-pagination',
+    el: '.indicaror',
   },
 
 
@@ -23,21 +23,5 @@ const swiper = new Swiper('.swiper', {
       slidesPerView: 3,
       spaceBetween: 32,
     },
-  },
-});
-
-new Swiper('.yahts-cards', {
-  modules: [Navigation],
-
-  // Navigation arrows
-
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
   },
 });
