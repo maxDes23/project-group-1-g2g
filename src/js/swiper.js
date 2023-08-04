@@ -13,7 +13,7 @@ new Swiper('.yahts-cards', {
   },
 
   grabCursor: true,
-  spaceBetween: 25,
+  spaceBetween: 0,
 
   breakpoints: {
     100: {
