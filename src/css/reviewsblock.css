@@ -142,7 +142,7 @@ main {
 
 
 @media screen and (max-width: 767px) {
-    .review-desctop {
+    .review-desctop, .review-tablet {
         display: none;
     }
 
@@ -156,6 +156,12 @@ main {
 
     .review-card-list {
         margin-bottom: 14px;
+        flex-wrap: nowrap;
+    }
+
+    .card-block {
+        display: flex;
+        flex-wrap: nowrap;
     }
 
     .indicator {
@@ -164,7 +170,6 @@ main {
 }
 
 @media screen and (max-width: 1279px) {
-    
     .review-desctop {
         display: none;
     }
@@ -172,6 +177,15 @@ main {
 
 /* for tablet screen */
 @media screen and (min-width: 768px) {    
+    .review-mobile {
+        display: none;
+    }
+
+    .swiper-slide {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    
     .review-text-blk {
         margin-bottom: 64px;
     }
@@ -196,7 +210,8 @@ main {
 
     .card-block {
         display: flex;
-        justify-content: center;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
         gap: 16px;
         padding: 0;
         margin: 0;
@@ -204,6 +219,7 @@ main {
 
     .review-card-list {
         display: flex;
+        flex-wrap: nowrap;
         gap: 0px;
         margin-bottom: 32px;
     }
@@ -221,7 +237,7 @@ main {
     /* for desctop screen */
     @media screen and (min-width: 1280px) {
 
-        .review-mobile {
+        .review-mobile, .review-tablet {
             display: none;
         }
 
